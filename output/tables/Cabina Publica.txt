@@ -1,0 +1,15 @@
+\begin{table}[H]
+\centering
+\caption{Cabina Publica}
+\label{tab:Cabina Publica}
+\scalebox{0.65}{
+\begin{tabular}{@{}crr@{}}
+\toprule
+Cabina Publica & Recuento & Porcentaje\\ \midrule
+0.0 & 1,893,321 & 97.0\\
+4.0 & 57,794 & 3.0\\
+Total & 1,951,115 & 100.0\\
+\bottomrule
+\end{tabular}
+}
+\end{table}

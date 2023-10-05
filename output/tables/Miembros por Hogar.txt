@@ -1,0 +1,30 @@
+\begin{table}[H]
+\centering
+\caption{Miembros por Hogar}
+\label{tab:Miembros por Hogar}
+\scalebox{0.65}{
+\begin{tabular}{@{}crr@{}}
+\toprule
+Miembros por Hogar & Recuento & Porcentaje\\ \midrule
+1 & 6,353 & 0.1\\
+2 & 252,248 & 3.6\\
+3 & 944,912 & 13.4\\
+4 & 1,950,796 & 27.6\\
+5 & 1,781,058 & 25.2\\
+6 & 964,505 & 13.7\\
+7 & 543,624 & 7.7\\
+8 & 253,435 & 3.6\\
+9 & 160,758 & 2.3\\
+10 & 94,979 & 1.4\\
+11 & 36,499 & 0.5\\
+12 & 27,787 & 0.4\\
+13 & 11,269 & 0.2\\
+14 & 10,230 & 0.2\\
+15 & 8,958 & 0.1\\
+18 & 901 & 0.0\\
+20 & 6,673 & 0.1\\
+Total & 7,054,985 & 100.0\\
+\bottomrule
+\end{tabular}
+}
+\end{table}

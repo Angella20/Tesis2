@@ -1,0 +1,15 @@
+\begin{table}[H]
+\centering
+\caption{Uso del internet a traves de una OTRO}
+\label{tab:Uso del internet a traves de una OTRO}
+\scalebox{0.65}{
+\begin{tabular}{@{}crr@{}}
+\toprule
+Uso del internet a traves de una OTRO & Recuento & Porcentaje\\ \midrule
+0.0 & 3,447,206 & 80.7\\
+7.0 & 826,470 & 19.3\\
+Total & 4,273,676 & 100.0\\
+\bottomrule
+\end{tabular}
+}
+\end{table}

@@ -1,0 +1,15 @@
+\begin{table}[H]
+\centering
+\caption{u hogar tiene Teléfono Celular}
+\label{tab:u hogar tiene Teléfono Celular}
+\scalebox{0.65}{
+\begin{tabular}{@{}crr@{}}
+\toprule
+u hogar tiene Teléfono Celular & Recuento & Porcentaje\\ \midrule
+0.0 & 134,222 & 1.9\\
+1.0 & 6,920,763 & 98.1\\
+Total & 7,054,985 & 100.0\\
+\bottomrule
+\end{tabular}
+}
+\end{table}

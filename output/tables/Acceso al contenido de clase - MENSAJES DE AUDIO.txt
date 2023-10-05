@@ -1,0 +1,15 @@
+\begin{table}[H]
+\centering
+\caption{Acceso al contenido de clase - MENSAJES DE AUDIO}
+\label{tab:Acceso al contenido de clase - MENSAJES DE AUDIO}
+\scalebox{0.65}{
+\begin{tabular}{@{}crr@{}}
+\toprule
+Acceso al contenido de clase - MENSAJES DE AUDIO & Recuento & Porcentaje\\ \midrule
+0.0 & 3,765,520 & 62.0\\
+5.0 & 2,309,917 & 38.0\\
+Total & 6,075,437 & 100.0\\
+\bottomrule
+\end{tabular}
+}
+\end{table}

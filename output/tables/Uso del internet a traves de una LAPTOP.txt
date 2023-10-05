@@ -1,0 +1,15 @@
+\begin{table}[H]
+\centering
+\caption{Uso del internet a traves de una LAPTOP}
+\label{tab:Uso del internet a traves de una LAPTOP}
+\scalebox{0.65}{
+\begin{tabular}{@{}crr@{}}
+\toprule
+Uso del internet a traves de una LAPTOP & Recuento & Porcentaje\\ \midrule
+0.0 & 3,880,969 & 90.8\\
+2.0 & 392,707 & 9.2\\
+Total & 4,273,677 & 100.0\\
+\bottomrule
+\end{tabular}
+}
+\end{table}

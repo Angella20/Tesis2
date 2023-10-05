@@ -1,0 +1,15 @@
+\begin{table}[H]
+\centering
+\caption{Uso del internet a traves de una TABLET}
+\label{tab:Uso del internet a traves de una TABLET}
+\scalebox{0.65}{
+\begin{tabular}{@{}crr@{}}
+\toprule
+Uso del internet a traves de una TABLET & Recuento & Porcentaje\\ \midrule
+0.0 & 4,174,996 & 97.7\\
+6.0 & 98,680 & 2.3\\
+Total & 4,273,677 & 100.0\\
+\bottomrule
+\end{tabular}
+}
+\end{table}

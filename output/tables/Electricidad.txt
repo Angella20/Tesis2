@@ -1,0 +1,15 @@
+\begin{table}[H]
+\centering
+\caption{Electricidad}
+\label{tab:Electricidad}
+\scalebox{0.65}{
+\begin{tabular}{@{}crr@{}}
+\toprule
+Electricidad & Recuento & Porcentaje\\ \midrule
+0.0 & 340,455 & 4.8\\
+1.0 & 6,714,530 & 95.2\\
+Total & 7,054,985 & 100.0\\
+\bottomrule
+\end{tabular}
+}
+\end{table}

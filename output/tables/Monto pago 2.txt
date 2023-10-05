@@ -1,0 +1,18 @@
+\begin{table}[H]
+\centering
+\caption{Monto pago 2}
+\label{tab:Monto pago 2}
+\scalebox{0.65}{
+\begin{tabular}{@{}crr@{}}
+\toprule
+Monto pago 2 & Recuento & Porcentaje\\ \midrule
+1.0 & 782 & 39.5\\
+3.0 & 396 & 20.0\\
+17.0 & 79 & 4.0\\
+20.0 & 481 & 24.3\\
+30.0 & 244 & 12.3\\
+Total & 1,983 & 100.0\\
+\bottomrule
+\end{tabular}
+}
+\end{table}

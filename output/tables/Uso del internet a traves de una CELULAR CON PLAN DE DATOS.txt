@@ -1,0 +1,15 @@
+\begin{table}[H]
+\centering
+\caption{Uso del internet a traves de una CELULAR CON PLAN DE DATOS}
+\label{tab:Uso del internet a traves de una CELULAR CON PLAN DE DATOS}
+\scalebox{0.65}{
+\begin{tabular}{@{}crr@{}}
+\toprule
+Uso del internet a traves de una CELULAR CON PLAN DE DATOS & Recuento & Porcentaje\\ \midrule
+0.0 & 3,423,683 & 80.1\\
+9.0 & 849,994 & 19.9\\
+Total & 4,273,677 & 100.0\\
+\bottomrule
+\end{tabular}
+}
+\end{table}

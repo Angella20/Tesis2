@@ -1,0 +1,15 @@
+\begin{table}[H]
+\centering
+\caption{Acceso al contenido de clase - LLAMADAS}
+\label{tab:Acceso al contenido de clase - LLAMADAS}
+\scalebox{0.65}{
+\begin{tabular}{@{}crr@{}}
+\toprule
+Acceso al contenido de clase - LLAMADAS & Recuento & Porcentaje\\ \midrule
+0.0 & 4,335,639 & 71.4\\
+7.0 & 1,739,798 & 28.6\\
+Total & 6,075,437 & 100.0\\
+\bottomrule
+\end{tabular}
+}
+\end{table}
