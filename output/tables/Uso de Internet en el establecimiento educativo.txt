@@ -6,9 +6,9 @@
 \begin{tabular}{@{}crr@{}}
 \toprule
 Uso de Internet en el establecimiento educativo & Recuento & Porcentaje\\ \midrule
-0.0 & 1,946,679 & 99.8\\
-3.0 & 4,436 & 0.2\\
-Total & 1,951,115 & 100.0\\
+0.0 & 1,892,725 & 99.8\\
+1.0 & 4,436 & 0.2\\
+Total & 1,897,160 & 100.0\\
 \bottomrule
 \end{tabular}
 }

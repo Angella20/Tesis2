@@ -6,9 +6,9 @@
 \begin{tabular}{@{}crr@{}}
 \toprule
 Acceso al contenido de clase - RADIO & Recuento & Porcentaje\\ \midrule
-0.0 & 5,069,416 & 83.4\\
-2.0 & 1,006,021 & 16.6\\
-Total & 6,075,437 & 100.0\\
+0.0 & 4,174,305 & 82.4\\
+1.0 & 891,190 & 17.6\\
+Total & 5,065,495 & 100.0\\
 \bottomrule
 \end{tabular}
 }

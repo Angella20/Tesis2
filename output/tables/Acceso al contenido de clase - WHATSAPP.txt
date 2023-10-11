@@ -6,9 +6,9 @@
 \begin{tabular}{@{}crr@{}}
 \toprule
 Acceso al contenido de clase - WHATSAPP & Recuento & Porcentaje\\ \midrule
-0.0 & 2,043,578 & 33.6\\
-5.0 & 4,031,859 & 66.4\\
-Total & 6,075,437 & 100.0\\
+0.0 & 1,707,086 & 33.7\\
+1.0 & 3,358,408 & 66.3\\
+Total & 5,065,495 & 100.0\\
 \bottomrule
 \end{tabular}
 }

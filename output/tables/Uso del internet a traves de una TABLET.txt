@@ -6,9 +6,9 @@
 \begin{tabular}{@{}crr@{}}
 \toprule
 Uso del internet a traves de una TABLET & Recuento & Porcentaje\\ \midrule
-0.0 & 4,174,996 & 97.7\\
-6.0 & 98,680 & 2.3\\
-Total & 4,273,677 & 100.0\\
+0.0 & 4,097,321 & 97.7\\
+1.0 & 94,976 & 2.3\\
+Total & 4,192,297 & 100.0\\
 \bottomrule
 \end{tabular}
 }

@@ -6,9 +6,9 @@
 \begin{tabular}{@{}crr@{}}
 \toprule
 Uso de Internet en el hogar & Recuento & Porcentaje\\ \midrule
-0.0 & 1,460,285 & 74.8\\
-1.0 & 490,830 & 25.2\\
-Total & 1,951,115 & 100.0\\
+0.0 & 1,417,409 & 74.7\\
+1.0 & 479,751 & 25.3\\
+Total & 1,897,160 & 100.0\\
 \bottomrule
 \end{tabular}
 }

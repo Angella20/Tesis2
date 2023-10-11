@@ -1,0 +1,15 @@
+\begin{table}[H]
+\centering
+\caption{Conexión a TV cable o satelital - Hogar}
+\label{tab:Conexión a TV cable o satelital - Hogar}
+\scalebox{0.65}{
+\begin{tabular}{@{}crr@{}}
+\toprule
+Conexión a TV cable o satelital - Hogar & Recuento & Porcentaje\\ \midrule
+0.0 & 4,132,483 & 70.5\\
+1.0 & 1,726,527 & 29.5\\
+Total & 5,859,010 & 100.0\\
+\bottomrule
+\end{tabular}
+}
+\end{table}

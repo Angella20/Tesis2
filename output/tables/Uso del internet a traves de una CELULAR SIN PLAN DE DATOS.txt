@@ -6,9 +6,9 @@
 \begin{tabular}{@{}crr@{}}
 \toprule
 Uso del internet a traves de una CELULAR SIN PLAN DE DATOS & Recuento & Porcentaje\\ \midrule
-0.0 & 2,038,781 & 47.7\\
-8.0 & 2,234,896 & 52.3\\
-Total & 4,273,676 & 100.0\\
+0.0 & 1,991,373 & 47.5\\
+1.0 & 2,200,924 & 52.5\\
+Total & 4,192,297 & 100.0\\
 \bottomrule
 \end{tabular}
 }

@@ -1,0 +1,668 @@
+
+PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ
+
+FACULTAD DE CIENCIAS SOCIALES
+
+
+
+
+      
+      
+      
+
+La brecha digital en los estudiantes de educación básica regular de Perú en tiempos de Covid-19
+
+
+
+TRABAJO DE INVESTIGACIÓN PARA OBTENER EL GRADO DE BACHILLER EN CIENCIAS SOCIALES CON MENCIÓN EN ECONOMÍA
+
+
+AUTOR
+
+Bruno Apaza, Angella Vanessa
+
+
+ASESOR
+Sotomayor Valenzuela, Narda Lizette
+
+Lima, diciembre de 2020
+ÍNDICE DE CONTENIDOS
+1.	INTRODUCCIÓN	4
+2.	REVISIÓN DE LITERATURA	8
+2.1.	SOCIEDAD DE LA INFORMACIÓN Y BRECHA DIGITAL: BENEFICIOS Y BARRERAS	8
+2.2.	DEFINICIÓN DE BRECHA DIGITAL Y SUS DIMENSIONES	9
+2.3.	DETERMINANTES DE ACCESO, USO DE LAS TIC POR PARTE DE LOS ESTUDIANTES EN TIEMPOS DE CONFINAMIENTO	12
+2.3.1.	DETERMINANTES SOCIOECONÓMICOS Y EDUCATIVOS	12
+2.3.2.	DETERMINANTES SOCIODEMOGRÁFICOS	13
+2.3.3.	DETERMINANTES GEOGRÁFICOS	15
+2.4.	BALANCE DE LA REVISIÓN DE LITERATURA	16
+3.	MARCO TEÓRICO	18
+3.1.	MODELO TEÓRICO	18
+3.2.	BRECHAS: ACCESO, USO E INTENSIDAD DE USO	19
+3.3.	DETERMINANTES DE ACCESO, USO Y APROPIACIÓN DE LOS ESTUDIANTES	20
+4.	HECHOS ESTILIZADOS	23
+4.1.	DATOS	23
+4.2.	SITUACIÓN EN LA REGIÓN	24
+4.2.1.	POLÍTICAS TIC EN LA EDUCACIÓN	24
+4.2.2.	 AVANCES Y LIMITACIONES DE LA DIGITALIZACIÓN EN EDUCACIÓN EN LA PANDEMIA	25
+4.3	SITUACIÓN PERUANA	27
+5.	HIPÓTESIS	31
+6.	LINEAMIENTO METODOLÓGICOS	32
+6.1.	MUESTRA	32
+6.2.	METODOLOGÍA Y MODELO EMPÍRICO	33
+7.	CONCLUSIONES	36
+8.	BIBLIOGRAFÍA	37
+9.	ANEXOS	44
+
+
+
+
+
+ÍNDICE DE TABLAS
+Tabla 1: Dimensiones de la brecha digital	19
+Tabla 2: Determinantes socioeconómicos de acceso, uso del TIC por parte de los estudiantes en tiempos de confinamiento	20
+Tabla 3: Determinantes sociodemográficos de acceso, uso del TIC por parte de los estudiantes en tiempos de confinamiento	21
+Tabla 4: Determinantes geográficos de uso del TIC por parte de los estudiantes en tiempos de confinamiento	22
+Tabla 5: Variables y estadísticos	23
+Tabla 6: Nivel de educación	28
+Tabla 7: Gestión de la escuela	28
+Tabla 8: Ámbito geográfico - gestión de la escuela	29
+Tabla 9:  Ámbito geográfico - Acceso de Internet y Uso de Internet	29
+Tabla 10: Muestra por departamentos	33
+
+ÍNDICE DE GRÁFICOS
+Gráfico 1: Porcentaje de países en los que se implementa cada acción	25
+Gráfico 2: Presupuesto Institucional Modificado (PIM) asignado a educación como porcentaje del PBI	27
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. INTRODUCCIÓN
+       El pasado 4 de marzo del 2020, se registró en el Perú el primer caso de coronavirus. El 16 de marzo, casi dos semanas después, se impuso en el país una serie de medidas restrictivas de aislamiento social con el fin de disminuir la propagación del número de contagiados por COVID-19. Como resultado, esta nueva dinámica ha reconfigurado las rutinas diarias en diversos ámbitos, siendo el ámbito educativo uno de los más afectados. En este, las instituciones educativas han hecho uso de diversos medios tecnológicos con el fin de que los 8 millones1 de estudiantes de la educación básica regular continúen su aprendizaje. Así, el Estado mediante el Ministerio de Educación (MINEDU) desarrolló la plataforma “Aprendo en Casa” que fue transmitida a nivel nacional a través de radio, televisión e internet, mientras que en las escuelas privadas las clases se transmiten por medio de otras plataformas digitales. 
+       Sin embargo, este paliativo se ha transformado en una nueva manera de exclusión, ya que hay factores que condicionan el acceso a la educación en línea, acentuando la brecha digital. Clafin (2000), define esta brecha como “la separación que existe entre las personas que pueden y usan las tecnologías de la información como una parte rutinaria de su vida diaria y aquéllas que no lo hacen”. Asimismo, como menciona Atuesta, Gonzales, Zea (1997) & Castells (2006) en Grisales (2011) las Tecnologías de la Información y Comunicación (TIC) es [1][2]definida como los: 
+“recursos tecnológicos que generan una sinergia comunicativa sin precedentes: palabra escrita; registros orales y visuales; dispositivos masivos de almacenaje con capacidades de ordenar, organizar y transformar información; dispositivos potentes de transmisión y comunicación; […] que nos brindan disponibilidad casi universal de la información, y posibilitan la desaparición de los condicionantes de tiempo y espacio” (Grisales, 2011, p. 6).
+
+       La definición de brecha digital se emplea tanto entre países como dentro de un mismo país; en ambos casos, la situación de Perú es preocupante. Si bien es cierto, durante la última década, la penetración de internet se ha ido incrementando a nivel mundial gracias a los desarrollos tecnológicos y la sociedad de información, a finales del 2020, Perú se posicionó en el puesto 8, luego de Chile, Uruguay, Argentina, Venezuela, Paraguay, Brasil y Colombia, en ese orden, posiciones respecto a la penetración de internet2. Ahora bien, dentro del país, solo el 67% de la población accedía a este servicio. Este porcentaje resulta ilusorio pues es necesario tener en cuenta la heterogeneidad del país. De modo que, el escenario resulta más desalentador si se hace este análisis por zonas geográficas del país. En las zonas urbanas, el 73% de la población tiene acceso a la red, mientras que, en las zonas rurales, un 27% accede a este servicio3. 
+       Además, la brecha digital tiene tres dimensiones - brecha de acceso, brecha de uso y brecha de apropiación. La primera dimensión está relacionada a la accesibilidad o no de las TIC; la brecha de uso está referida a cómo se usa las TIC y la brecha de apropiación está relacionada a para qué se usa o con qué fin se usan las TIC4. 
+       En la región de América Latina y el Caribe, solo 65% de la población que estudia tiene acceso a una computadora, mientras que 46,5% posee una Tablet; asimismo, en esta dimensión de acceso, no solo se presenta sobre infraestructura o accesibilidad a las TIC, sino que también se debe considerar la calidad de la cobertura que permita a los estudiantes estar conectados. Estas dificultades de acceso que enfrentan los educandos también lo hacen los maestros. Sumado a eso, por el lado de la dimensión de uso, la falta de competencias en capacidades tecnológicas o la comprensión de cómo utilizar las TIC por parte de los algunos maestros los apartan del uso de las herramientas tecnológicas; es decir, son excluidos digitales o analfabetos digitales pues a pesar de tener el acceso a las TIC no saben cómo utilizarlas. Por último, la dimensión de apropiación es la capacidad de saber sacar provecho de las TIC. Por ejemplo, si se utiliza el tiempo en red en videojuegos o para uso específicos de tareas escolares.
+       En este sentido, poder estudiar se vuelve un privilegio de cierta parte de la población, creando así una brecha mucho más amplia porque hay un sector de la población que está restringida de avanzar con sus actividades en este nuevo paradigma, quitando así uno de los derechos humanos fundamentales – derecho a la educación, siendo el sector de educación uno de los más afectados. El MINEDU estima que, 300 mil escolares de la matrícula escolar no han participado del sistema educativo ya sea por las necesidades de ir a trabajar y/o las dificultades para conectarse a las clases virtuales (Gestión, 2020). Asimismo, el MINEDU señala que 337,870 estudiantes de educación básica regular se trasladaron de instituciones privadas a instituciones públicas (MINEDU, 2020). Como señala Schmelkes (2020) este confinamiento podría convertir la brecha digital en una brecha de aprendizaje.
+       Asimismo, la emergencia sanitaria como consecuencia del COVID-19 ha sido motor para poder visibilizar y concientizar las desigualdades y carencias del sistema que ya existían en el país. A pesar de ello, este nuevo contexto muestra oportunidades para desarrollar soluciones de manera de acortar las brechas digitales con miras a un país con recursos tecnológicos mejor distribuidos. 
+       Dado el entorno actual, el objetivo de esta investigación es comprender los determinantes de la brecha digital en los estudiantes de educación básica regular en la educación no presencial provocada por el Covid-19, tomando en cuenta las dimensiones de acceso, uso y apropiación de internet. Para responder al objetivo general se proponen los siguientes objetivos específicos[3]:
+• Analizar si los estudiantes cuentan con los recursos tecnológicos suficientes para continuar sus estudios.
+• Examinar si las habilidades y conocimientos son suficientes para implementar las recomendaciones en las escuelas en relación al uso de las TIC.
+• Estudiar si hay disparidad entre las variables analizadas, en los [4]medios que poseen y el aprovechamiento a la hora de su utilización.
+       De modo que cada uno de estos objetivos, está relacionado a una dimensión específica de la brecha digital. Cabe mencionar que, la literatura sobre el tema es escasa. En particular, hay pocos análisis cuantitativos que midan la brecha digital en los estudiantes. De hecho, los estudios actuales revisados sobre el tema se enfocan en describir a la población analizada[5]. Asimismo, estos estudios nacionales e internacionales no toman en cuenta el factor pandemia. Esta investigación busca llenar este vacío, de manera que, esta investigación considera importante estudiar la brecha digital en los estudiantes en tiempos de confinamiento, tomando en cuenta un enfoque de acceso, uso y apropiación de internet.
+       La investigación utilizará un enfoque cuantitativo, utilizando como principal fuente de información la Encuesta Nacional de Hogares - 2020 (ENAHO). La cual cuenta con datos de individuos sobre el acceso a dispositivos tecnológicos en el Perú. De esta forma, para el caso del primer objetivo específico se hace un modelo probit, en el cual la variable dependiente es el acceso a Internet. Para responder al segundo objetivo y al tercer objetivo, se realiza una relación causal entre las variables [6][7]por medio de un modelo probit, en el cual la variable dependiente es uso de internet.
+       En contextos normales, esta brecha digital forma parte de una de las desigualdades existentes en Perú, y en tiempos de pandemia, las consecuencias a largo plazo pueden ser aún más perjudiciales. Sin embargo, en este contexto donde parte de los estudiantes en todos los departamentos se están quedando fuera de este sistema digital, queda claro que de alguna manera afectará su posibilidad de producir ingresos a futuro, ya que el estudiantado se ve limitado de aprender, de tener contactos en el sistema. Según la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO, siglas en inglés), la educación es un derecho para todo individuo pues genera “las capacidades y conocimientos críticos necesarios para convertirnos en ciudadanos empoderados, capaces de adaptarse al cambio y contribuir a la sociedad” (UNESCO, 2014). Es así que determinar la brecha digital en los estudiantes [8][9]en los estudiantes durante el 2020 se convierte en una herramienta esencial para determinar si han logrado una asimilación adecuada de la educación en línea en términos tecnológicos, evitando su exclusión del sistema educativo. Esto permite trazar estrategias encaminadas hacia la equidad digital, priorizando a los estudiantes de EBR con recursos tecnológicos limitados.
+       El texto está estructurado de la siguiente manera. En la sección 2, se presenta la revisión de literatura donde se definirá, el concepto de sociedad de conocimiento y la relación con la brecha digital, luego se detallará el concepto de brecha digital, de esta manera se analizarán las dimensiones de esta; posteriormente, se expondrá el stock actual de conocimientos de los temas las relevantes en la literatura analizada. Luego se planteará el marco teórico a utilizar en esta investigación, donde se presenta el modelo teórico. Los hechos estilizados se presentan en la sección 4. Posteriormente, se muestran las hipótesis de la investigación. El modelo econométrico y las variables a analizar se presentan en la sección 6. [10]En la siguiente sección, se muestran los resultados de las estimaciones. Por último, se muestran las conclusiones de la investigación.
+
+2. REVISIÓN DE LITERATURA
+       En los últimos veinte años, la literatura sobre la brecha digital ha aumentado, en particular en relación a la brecha de uso y de aprovechamiento. Esto como consecuencia del incremento de usos de las TIC alrededor del mundo. En la actualidad, debido a la coyuntura, la brecha digital es un tema que se ha visibilizado aún más. Sin embargo, en el caso específico peruano, existen escasas investigaciones sobre la brecha digital en el sector de educación y ninguna toma en cuenta la pandemia. En esta sección, se muestra la revisión de literatura nacional e internacional que aporta a estudiar y examinar el tema en cuestión. Esta sección está dividida en cuatro secciones. Primero, se precisa la definición de sociedad de información, que ayudará a una mejor comprensión de los temas relevantes. Segundo, se detalla la definición de brecha digital, y se muestran las dimensiones de esta. En tercer lugar, a partir de las dimensiones de la brecha, se estudia los determinantes de acceso, uso y apropiación de las TICS. Finalmente, se realiza un balance de la revisión de literatura.
+2.1.	SOCIEDAD DE LA INFORMACIÓN Y BRECHA DIGITAL: BENEFICIOS Y BARRERAS
+       La sociedad de la información es entendida como “el espacio social altamente dinámico, abierto, globalizado y tecnologizado, donde el conjunto de relaciones sociales (acción e interacción de los individuos, procesos de producción material y espiritual) se apoyan y realizan a través de la información” (Garduño, 2004, 4). El siglo XXI presenta una cadena de cambios, oportunidades y retos para las personas gracias a la presencia de las TIC. Según Castells, “La importancia que estas tecnologías tienen para la sociedad de la información es el equivalente a la que tuvo la fábrica durante la revolución industrial” (Márquez et al., 2016: 95).  
+       En este sentido, en la actualidad, el principal recurso de desarrollo en la sociedad es la información que puede ser transmitida de manera descentralizada a todas las partes de la sociedad a través de los medios digitales, de esta forma estar conectados con el mundo; además ha contribuido en el cambio de estructura de las actividades sociales. Esto debido a que, en “la sociedad de la información el ciberespacio se convierte en el escenario de comunicación interactivo y comunitario” (Garduño, 2004: 4), donde las personas pueden acceder a la información a un clic de distancia mediante dispositivos digitales.
+       La sociedad de la información es aquella donde la principal fuente de productividad y competitividad es la información (Castells, 2000). Asimismo, se hace referencia de que esta sociedad de la información o Estado-red este interconectada mediante las TIC (Castells,2000). De esta manera, se produce un tipo de red interconectada por las tecnologías de información, de modo que el conocimiento puede ser adquirido por cualquiera que pertenezca a esta sociedad. Sin embargo, “uno de los retos de la sociedad en red es advertir cómo los procesos de exclusión se reeditan, ahora en función al acceso y dominio de los nuevos códigos sociales, laborales, económicos y culturales […]. Y esta situación contribuye a la generación de un nuevo tipo de brecha social: la divisoria digital” (Steinberg, 2013: 88-89). De este modo, quienes no están conectados a este sistema quedan excluidos de los beneficios de esta sociedad- red.
+       Es decir, la sociedad de información presenta una serie de ventajas, pero también crea barreras a quienes no puedan estar en este espacio de la sociedad. En este marco, surge la necesidad de reducir la brecha digital dado sus efectos restrictivos. Además, hay que tener en cuenta que la mejora en infraestructuras tecnológicas es un requisito necesario, más no suficiente para acceder a los beneficios de la sociedad digital (Lera-López, Hernández & Blanco, 2003). Asimismo, Bernabeu (1997) señala la importancia de transformar la educación tradicional en respuesta al progreso de la sociedad y al nuevo concepto de educación, adaptándose a las nuevas necesidades emergentes y a las cambiantes formas de desarrollo.
+2.2.	DEFINICIÓN DE BRECHA DIGITAL Y SUS DIMENSIONES
+       Sunkel[11] et. Al. (2011) muestra que existen dos tipos de brecha, la brecha internacional es la que se da por las diferencias de acceso e infraestructura entre países y regiones del mundo; mientras que la brecha interna se hace presente entre distintos grupos sociales dentro de un país. Este estudio tomará la definición de brecha interna de Sunkel et Al. Asimismo, James (2001) conceptualiza la brecha digital a nivel de individuo utilizando el número absoluto de personas que usan Internet y de personas que hacen uso de teléfonos móviles de países en desarrollados con respecto a países desarrollados. 
+       Según Clafin (2000), “la Brecha Digital es la separación que existe entre las personas que pueden y usan las tecnologías de la información como una parte rutinaria de su vida diaria y aquéllas que no lo hacen”. Una definición parecida también lo propone Tello, en palabras de este, “es una línea que separa a las personas que ya se comunican y coordinan actividades mediante redes digitales de quienes aún no han alcanzado este estado avanzado de desarrollo” (Tello, 2007: 3).
+       Mientras que Castells (2001) y UIT (2009) aseguran que la brecha digital es la diferencia entre los que tienen y lo que no tienen Internet. Algunos escritores resaltan esta disparidad en la habilidad que tienen los consumidores en saber usar las TIC y obtener beneficio de estas. Por ejemplo, Monge & Hewiett (2004) indica que la brecha se da a consecuencia del acceso desigual de los usuarios de las TIC, y sus habilidades para poder utilizar estas herramientas, dependiendo del aprovechamiento de uso de estas.
+       En cuanto a las definiciones de la brecha digital hechas por las instituciones se ha encontrado que estas las definen tomando en cuenta el ámbito tecnológico. Según World Resources Institute (s.f) la brecha digital se refiere a la brecha entre quienes tienen acceso a información computarizada e Internet y quienes no. Asimismo, la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura – UNESCO (2005) define a la brecha digital como una brecha cognitiva que genera desigualdades entre países en la producción y participación de conocimientos. Por último, la Comisión Económica para América Latina y el Caribe asegura que la brecha digital tiene dimensiones, “extensión (acceso) y profundidad (calidad de acceso)” (CEPAL, 2008). 
+       Con el transcurso de los años, la brecha digital está tomando diversos matices en[12][13] la definición. Por lo tanto, para una comprensión más precisa de esta definición de brecha es necesario detallar las dimensiones de esta. La mayoría de las definiciones anteriores se basan en acceso e infraestructura. Sin embargo, la disposición de las computadoras e Internet en países desarrollados, ha impulsado que este término aborde aspectos cada vez más complejos5. En la literatura se encuentra que hay tres dimensiones y estas se presentan de una manera jerárquica. De esta manera Crovi (2008) menciona que existen tres dimensiones de la brecha digital, brecha de acceso, brecha de uso y brecha de apropiación. 
+       La primera dimensión se define como ruptura entre los que tienen entrada a la infraestructura técnica o infraestructura de telecomunicación y los que están apartados de estas.  Sin embargo, Selwyn (2004) menciona que no solo se trata de poder adquisitivo y acceso físico nombrados por este autor como acceso formal. Sino que se debe tener en cuenta el acceso efectivo, es decir se debe considerar más allá de la capacidad y distribución del acceso. Por ejemplo, para acceder a la información desde un celular o una computadora en el hogar no es lo mismo que acceder a la información mediante recursos de la escuela, cafés o cabinas de internet. Entonces, en este primer nivel comprende tanto el acceso formal como el acceso efectivo a las TIC.
+	Se debe tener en cuenta que el acceso a las TIC no necesariamente involucra saber utilizar estas TIC. La segunda dimensión hace referencia a quienes hacen uso frecuente de las TIC de las que no lo hacen, ya sea por desconocimiento, desinterés o porque desconocen los beneficios de estas.  Asimismo, Van Dijk (2017) menciona que luego de obtener el acceso a las TIC, es necesario tener habilidades para utilizarlas, añade también que en esta dimensión es importante la frecuencia, el número de horas que se utilizan las TIC. Esta dimensión de la brecha se da como consecuencia de los hábitos educativos o los hábitos laborales que motiva a los que hacen uso de las TIC pues de alguna manera les aporta algún valor.
+       Por último, la brecha de apropiación es la separación de los usuarios que le dan usos específicos a las TIC y los que hacen usos triviales de las TIC. Mientras que el primer grupo le da un uso “valioso”, de tal forma de poder generar cambios significativos en su entorno, los otros, no sacan provecho de estas herramientas (Márquez et al., 2016). En esta dimensión no solo es necesario tener acceso a las TIC y saber utilizarlas, tampoco se toma en cuenta la calidad ni la cantidad, sino la apropiación recae en el uso significativo, el cual debe ser útil al individuo. Para la Peres & Hilbert, plantean la incorporación en el currículo objetivos y contenidos relacionados a la integración de las TIC (2009).
+       En el Perú, hay que rescatar dos investigaciones las cuales concuerdan con Van Dijk (2017) y Selwyn (2004). Primero, Tello en el 2018 en su investigación de productividad de emprendimiento informales analiza estas dimensiones como acceso o no de los usuarios de TIC, el manejo de los dispositivos tecnológicos y los resultados tangibles de estos (2018). Segundo, en Barrantes & Vargas (2017) estas dimensiones están estudiadas como brecha de primer orden, brecha de segundo orden, y brecha de tercer orden.
+2.3. DETERMINANTES DE ACCESO, USO DE LAS TIC POR PARTE DE LOS ESTUDIANTES EN TIEMPOS DE CONFINAMIENTO[14][15]
+       Respecto a los determinantes del acceso, uso de TIC, concretamente del Internet, por parte de los estudiantes se ha encontrado que hay variables que influyen en estas dimensiones.  Se ha agrupado en tres tipos de determinantes, determinantes socioeconómicos (ingreso, nivel socioeconómico y costos); determinantes sociodemográficos (sexo, edad, estructura familiar); determinantes geográficos (área urbana/área rural). En esta parte se tomará en cuenta el factor confinamiento por el Covid-19.
+2.3.1. DETERMINANTES SOCIOECONÓMICOS Y EDUCATIVOS
+       Respecto[16] a los determinantes económicos se toman en cuenta los ingresos de los familiares. En un estudio hecho por James a los habitantes de la India encuentra que hay una relación entre los ingresos económicos y el acceso de internet, asimismo menciona que es posible cerrar esta brecha utilizando TIC de bajo costo (James, 2001). Asimismo, el Banco Mundial (1999) confirma que existe una relación entre las condiciones económicas y el acceso a las TIC, esto también ayuda al progreso económico de los países. En la misma línea, Duplaga (2017) muestra que un mayor nivel de ingresos, mayor es el uso de tecnologías. Entonces, tanto en países y personas con mayores ingresos económicos mayor será su acceso y uso a las TIC, caso contrario, el acceso y uso a estas será menor.
+       En cuanto a nivel socioeconómico, Sádaba (2010) en su estudio a población de española muestra que el 45,3% de los usuarios de internet procede de una clase social media-media, mientras que el 36,7% es de clase social media-alta y 15,7% de una clase social media-baja. Asimismo, por el lado de los usos diferenciados, se encuentra que los estudiantes de menores recursos económicos, hacen usos consumistas y pasivos o superficiales (Van Deursen & van Dijk, 2013), mientras que el estudiantado de nivel socioeconómico alto, al poseer mayor tiempo disponible en la red puede realizar actividades culturales y de ocio (DiMaggio et al. ,2004); sumado a esto, el entorno familiar ayuda a controlar y orientar a estos estudiantes para que hagan usos más selectivos, formativos (Fernández, 2020), habilidades de pensamiento crítico (Hohlfeld y col. , 2008). 
+       Por otro lado, otros autores, mencionan que la decisión de acceso a las TIC está sujeto al costo de la computadora y del internet. Para Murthy & Soleimani (2015) se tiene que poder pagar los dispositivos como computadoras, tablets, celulares, etc. Para poder usar Internet. Además, Warschauer (2004) muestra que para poder conectarse a la red hay que tener además de una computadora se debe considerar el mantenimiento al equipo y el costo de conexión. Entonces, la capacidad adquisitiva limita la compra de los dispositivos y uso de estos (Claro et al., 2011). Kiiski & Pohjola. (2002) en su estudio a 23 países miembros de la OCDE encuentran que una disminución de los costos de acceso a Internet, aumentaría el número de usuarios de computadoras. Asimismo, los costos de internet están determinados por la competencia entre los proveedores (Grubesic 2008). Cabe mencionar que, debido al progreso tecnológicos la compra de dispositivos como laptop o computadora resultan asequibles para ciertos sectores de la economía. 
+       
+       
+       
+       
+       
+       
+       
+       
+
+       
+Tabla 1: Determinantes socioeconómicos de acceso, uso del TIC por parte de los estudiantes en tiempos de confinamiento
+
+Determinantes
+socioeconómicosCaracterísticasPrincipales referenciasIngresosAcceso: El ingreso de los padres afecta positivamente en la adopción y uso Internet.James (2001), Banco Mundial (1999), Sádaba (2010).Uso: Un mayor ingreso tiene relación positiva con mayor uso de tecnologías.
+Duplaga (2017)
+Nivel SocioeconómicoAcceso: A mayor nivel socioeconómico mayor acceso a Internet.Sádaba (2010)Uso: Un mayor nivel socioeconómico tiene una relación positiva con el uso de Internet.Sádaba (2010)Apropiación: Un nivel socioeconómico alto realiza actividades formativas y selectivas.Van Deursen & van Dijk, (2013), DiMaggio et al. (2004), Fernández (2020) y Hohlfeld y col., (2008). 
+CostosAcceso: los costos que implican estar conectados a las redes imitan el acceso a las TIC.Murthy & Soleimani (2015), Warschauer (2004), Claro et al., (2011) y Kiiski & Pohjola. (2002) y Grubesic (2008).Fuente: Elaboración: propia. En base a varios (indicados en la tabla).
+       
+2.3.2. DETERMINANTES SOCIODEMOGRÁFICOS
+       En cuanto a determinantes sociodemográficos, se encuentran literatura empírica principalmente sobre las variables sexo, edad y la estructura familiar. En primer lugar, Rodríguez (2006) señala que en “las sociedades donde la discriminación y marginación son culturalmente aceptadas, las mujeres no tienen acceso a Internet o en el mejor de los casos tienen una mínima posibilidad de utilizar la red y recibir información”. 
+       Sádaba (2010) muestra que en el acceso y uso de las TIC existen grandes diferencias en el uso de internet, del móvil y el ordenador, que dependen del sexo del usuario. El porcentaje de uso del móvil es igual en ambos (90%), mientras que en el caso de uso de ordenador los hombres hacen mayor uso de estos. Asimismo, el uso del internet es mayormente por hombres. Por último, los hombres compran más internet 31,6% vs 23,4%. Losh (2003) explica que el menor consumo de Internet por parte de las mujeres puede estar explicado por el nivel educativo, ingreso y las responsabilidades dentro del hogar.
+       Además, Brynin (2006) indica que tanto hombres como mujeres hacen uso de las TIC en la misma proporción. Sin embargo, el estudio de Cuevas & Alvarez (2009) encuentra diferencias en los patrones de uso, pues los hombres hacen mayor uso y con mayor facilidad del computador. En el estudio de Haugland (2000) detalla que, a partir del cuarto grado, los niños hacen mayor uso de las computadoras que las niñas. Es cuando estas entran a nivel secundario que esta brecha entre hombre y mujeres se amplía (Gehring, 2001). En la investigación de Calderón a estudiantes de España encuentra que el nivel de formación digital de las mujeres es menor que en hombres (Calderón, 2019). 
+       Jiménez, Vega & Vico (2016) mostraron en su estudio de habilidades técnicas de las mujeres que entre sus principales actividades se encuentran video-llamadas, creación de contenido en redes sociales, en un segundo realizan actividades de manejo de programas, conexión o instalación de dispositivos, y programación. En contraposición, Castaño, Duart & Sancho (2012) muestran que las estudiantes universitarias de España utilizan el internet con fines académicos; mientras que los estudiantes hombres españoles lo hacen para juego online.
+       Asimismo, Chen & Wellman (2004), Kuttan & Peters (2003) y Kelley-Salinas (2000) muestran que esta brecha de uso ha disminuido con el paso de los años, asimismo muestran que en países desarrollados esta brecha es menor. Según la OECD, el factor género a medida que aumenta el uso de Internet se vuelve un factor irrelevante (OECD, 2007).
+       En segundo lugar, la edad es considerada un factor esencial que determina la brecha digital. Rodríguez (2006) menciona que hay una resistencia al uso de las TIC por aquellas personas que eran mayores de edad antes de la revolución del internet en la década de 90. Prensky (2001) en su análisis de brecha digital por edades, menciona dos grupos importantes. Primero, los nativos digitales son individuos que hicieron usos de dispositivos digitales desde temprana edad. Segundo, el migrante digital es definido como aquella persona que nació antes del boom de las nuevas tecnologías. De esta forma, quienes nacieron junto a los avances del internet son los llamados “nativos digitales”, estos utilizan la red con gran facilidad y quienes nacieron antes de estos avances son los “migrantes digitales”. 
+       Asimismo, Kuttan & Peters (2003) hacen un análisis por grupo de edades y encuentra que las personas entre las edades de 18 y 49 años son los usuarios más frecuentes y que los individuos mayores a 50 años hacen menor uso de internet. En la misma línea, Sádaba (2010) muestra que la edad de los internautas que usan las TIC se encuentra entre 14 y 34 años con un 50,8%, mientras los internautas entre 35 y 54 años representan el 36,4% y los internautas mayores de 55 años representan el 12,8%. Es decir, hay una relación inversa entre la edad de la persona y el uso del internet.
+       Cueto, León & Felipe (2020) encuentran que mientras más temprana sea la edad de uso de las TIC, mayor frecuencia de uso de computadoras e Internet y mayores habilidades digitales. Además, el uso de Internet y computadora tienen una relación negativa con la edad, debido a que mientras más años tenga menor la motivación de acceder y usar las TIC (Duplaga, 2017; Lera-López et al., 2011). 
+	Los estudiantes de últimos grados de secundaria hacen mayor uso del Internet (Quiroz, 2014). En cuanto al uso que se les da al Internet, se encuentra que quienes hacen mayores usos de ocio e interacción son los jóvenes (Castell et al., 2007). Sin embargo, hay que tener en cuenta que no necesariamente los estudiantes nacidos en la era digital cuentan con habilidades digitales necesarias para la sociedad (Álvarez-Sigüenza, 2019).
+       	Finalmente, la estructura familiar contribuye en el acceso y uso del Internet. Según Mills & Whitacre (2003), la decisión de adopción de internet tiene una influencia positiva cuando hay niños en las familias. Sin embargo, McKeown, Noce & Czerny (2007) sugieren que en efecto hay una relación positiva entre hogar con niño y conexión a Internet, pero esto no necesariamente significa que los adultos del hogar también los utilicen.
+       
+       
+       
+Tabla 2: Determinantes sociodemográficos de acceso, uso del TIC por parte de los estudiantes en tiempos de confinamiento
+
+Determinantes sociodemográficos
+Características:Referencias:SexoAcceso: Las mujeres tienen un menor acceso al Internet.Rodríguez (2006), Sádaba (2010) y Losh (2003)
+Uso: Los hombres tienen mejores habilidades digitales.
+Sádaba (2010), Brynin (2006), Cuevas & Alvarez (2009), Gehring, (2001), Haugland (2000) y Calderón (2019).
+Apropiación: No hay un consenso con respecto al uso valioso con respecto a la variable sexo.
+Jiménez, Vega & Vico (2016) Castaño, Duart & Sancho (2012)
+Edad
+Uso: la población que más usa Internet son los llamados “nativos digitales”, mientras más temprana sea la edad de uso de las TIC mayores habilidades digitales. 
+
+Rodríguez (2006), Prensky (2001), Kuttan & Peters (2003), Duplaga, 2017, Lera-López et al., 2011)., Álvarez-Sigüenza y Sádaba (2010)Apropiación: Los jóvenes son quienes hacen mayores usos de interacción en actividades de ocio. 
+
+(Castell et al., 2007).Estructura familiarAcceso: tener niños en casa aumenta la probabilidad de estar conectado a Internet. 
+Mills & Whitacre (2003) y McKeown , Noce & Czerny (2007)Fuente: Elaboración: propia. En base a varios (indicados en la tabla).
+       
+       
+2.3.3. DETERMINANTES GEOGRÁFICOS
+       En cuanto a los determinantes geográficos, los estudios se centran en las disparidades con respecto a la ubicación del estudiante; mientras que la infraestructura del hogar está relacionada con los recursos tecnológicos de estas. Por un lado, Rodríguez (2006) muestra que hay una diferenciación en los servicios de TIC entre zonas rurales y zonas urbanas, estas últimas tienen mejor acceso a los servicios. Asimismo, en el estudio de Sunkel et al. (2011), para países de Latinoamérica y El Caribe, muestra que hay una escasa cobertura e infraestructura de los servicios de telecomunicación y esto se ve reflejado en un déficit de equipamiento en las familias de zonas rurales. 
+       Por otro lado, en la investigación de Riddlesden & Singleton (2014) revela disparidades en la velocidad de Internet entre las zonas rurales y urbanas. Estas diferencias pueden atribuirse a los costos asociados con la implementación de tecnología. Estas disparidades pueden ser explicadas, por los costos de implantación de tecnología. Schneir & Xiong (2016) comprueban que las inversiones en áreas rurales o con poca densidad de población son desalentadas por el bajo retorno de la inversión.  
+       Antes de la pandemia, estas desigualdades podrían solucionarse con infraestructura gracias a los computadores de las escuelas, cabinas de internet o cafés. Por un lado, Rodríguez & Sandoval (2017) en un estudio a estudiantes chilenos encuentran que la escuela es un “gran democratizador del acceso a las TIC, potenciando las posibilidades de adquisición de mayor capital social y cultural por parte de los estudiantes”. Sin embargo, Sunkel (2006) asegura que estos medios se ven restringidos por el tiempo que disponen los estudiantes para hacer uso de estas herramientas. Por otro lado, en cuanto a las cabinas públicas, Teresa Quiroz (2014), en su estudio a estudiantes de secundaria de Perú, encuentra que el casi el 40% de los estudiantes hace uso de las cabinas públicas por razones escolares, o de entretenimiento, mientras que el 38,1 % y 58,7% lo hacen en áreas urbanas y áreas rurales respectivamente. 
+       En la misma línea, Zhao et al. (2010) muestra que el la duración y frecuencia de uso de TIC se deben tomar en cuenta para el aprovechamiento de TIC; además del lugar donde se realiza la conexión (escuela, hogar o cibercafé). Rhee & Kim (2004) demuestran que estas conexiones alternas en trabajo, café o cabinas públicas contribuyen a la reducción de desiguales tecnológicas. Ahora bien, dado el contexto, los recursos tecnológicos del trabajo, café o cabinas públicas ya no son opción de acceso y uso de internet por el confinamiento social.
+       Entre todos estos determinantes, los modelos cuantitativos empleados en la literatura para llevar a cabo las estimaciones son principalmente el probit o el logit. Además, en algunos de estos estudios se llevaron a cabo encuestas y/o entrevistas propias para recopilar los datos.
+       
+Tabla 4: Determinantes geográficos de uso del TIC por parte de los estudiantes en tiempos de confinamiento
+
+Determinantes geográficos CaracterísticasReferenciasÁrea GeográficaAcceso: La baja densidad de población y los altos costos de implementación desalientan las inversiones privadas. Las áreas rurales tienen un déficit de infraestructura.
+Gallado (2006), Sunkel et al. (2011), Riddlesden & Singleton (2014), Rendon Schneir & Xiong (2016), Rodríguez & Sandoval (2015), Teresa Quiroz (2014), Zhao et al. (2010), Rhee & Kim (2004).
+Fuente: Elaboración: propia. En base a varios (indicados en la tabla).
+       
+2.4. BALANCE DE LA REVISIÓN DE LITERATURA[17][18]
+       En resumen, en esta parte se ha hecho hincapié en cuatro aspectos relevantes para este trabajo: sociedad de información, brecha digital y sus dimensiones; y determinantes de acceso, uso y apropiación, así como la teoría del modelo de los cuatro tipos de acceso en la apropiación de la tecnología digital propuesta por Van-Dijk.
+       Respecto a la definición de sociedad de información se encuentra que está presenta diversos beneficios para los que se encuentran dentro de esta. Sin embargo, pone barreras para quienes no; es decir los excluye; creándose así una brecha. Esta brecha digital es definida como desigualdad en términos tecnológicos. Para una mejor comprensión de la brecha digital se estudió sus dimensiones. La literatura analiza tres dimensiones: (i) brecha de acceso, referida a la desigualdad entre los que pueden acceder a dispositivos digitales y aquellos que no, considerando una infraestructura adecuada; (ii) brecha de uso, referida a si la persona hace uso o no de las TIC, por diversos motivos como la motivación y/o falta de interés; (iii) brecha de apropiación, referida a la diferencia entre quienes hacen uso productivo de las TIC de quienes hacen uso básico de estos.
+	Respecto a la literatura empírica internacional sobre los determinantes, el nivel de ingresos de los familiares, un nivel socioeconómico alto, la edad (si es mayor de 15 años) y el nivel educativo (si está en secundaria) influyen positivamente en el acceso y uso de Internet por parte de los estudiantes. Mientras que las variables como lugar geográfico (si vive en zona rural), costo influyen negativamente en el acceso y uso de internet por parte de los estudiantes. Por último, la variable sexo (si es mujer) no da una relación precisa. 
+	Por último, la literatura empírica internacional es analizada para países de América Latina, Europa, Asia y África; en cuanto a literatura nacional, se encuentra un estudio de Quiroz escrito en el 2014, el cual analiza los alcances de las TIC en las aulas. Su análisis es hecho para los años 2006 a 2012. No se ha hallado literatura peruana que tome en consideración el factor pandemia, en consecuencia, se considera importante la investigación.
+
+
+3. MARCO TEÓRICO[19][20]
+    En esta sección se presenta primero el modelo teórico de la investigación. Luego se detalla las dimensiones de brecha digital. Finalmente, se analiza los determinantes de la brecha digital que se presentan en cada dimensión.
+3.1. MODELO TEÓRICO
+       En esta parte se sigue a Grazzi & Vergara (2009) y Tello (2018) para realizar los análisis de acceso a Internet; mientras que para el análisis de uso a Internet se sigue a Madden & Simpson (1997); Lera?López et al. (2011); Mills & Whitacre, (2003); Vicente & López, (2008) y Tello (2018). 
+       Primero, en el caso específico de este análisis para acceder a las TIC se requiere acceso a Internet y acceso a un dispositivo con el cual conectarse (computadora, laptop, tablet, celular). Siguiendo a Grazzi & Vergara (2009) el acceso a un dispositivo digital le generará una utilidad indirecta, en donde si la utilidad de tener el dispositivo es definida como (U_(i,H))  y la utilidad de no tener una computadora (U_(i,N)). En donde el individuo i elegirá tener el dispositivo si la utilidad (U_(i,H)) > (U_(i,N)).
+       Del mismo modo el individuo j elegirá tener acceso a internet, si la utilidad de tener internet (U_(i,C)) es mayor a la utilidad de no tener internet (U_(i,N)). Tanto la utilidad de tener un dispositivo con el cual conectarse a Internet como acceder a Internet es una función lineal de un conjunto de características socioeconómicas, sociodemográficas y geográficas del hogar. En este caso, la adopción de algún dispositivo digital es una condición preliminar para tener conexión de Internet en casa.
+       El marco de referencia en el que se basará esta investigación en el caso de uso de las TIC es el de la teoría neoclásica del consumidor para relacionar la probabilidad de hacer una elección con cierto conjunto de comportamientos que reflejan las preferencias de los individuos (Madden & Simpson, 1997; Lera?López et al. 2011; Mills & Whitacre, 2003; Vicente & López, 2008). De modo, cada que la utilidad (U_ij) representa a utilidad del individuo (i) que obtiene de la alternativa (j). [21]En este caso, j está relacionada al uso de internet (j=1), o al no uso de este servicio (j=0), la utilidad del uso de internet es U_i1 mientras que la de no uso de internet es U_i0.
+       Al maximizar la utilidad de la alternativa j del individuo se obtiene
+U_ij=U_ij (p_j, y_i,s_i, w_i)
+Donde:
+? p_j: precios del servicio j
+? y_i: ingreso de la familia de individuo i
+? s_i: características observables del individuo i
+? w_i: factores no observables
+Maximizando la utilidad de uso de internet se tiene:
+U_ij=U_ij (p_j, y_i,s_i, w_i)
+       En la función de utilidad se asume que la utilidad de uso de internet depende de las características del individuo. En particular, se investigará la influencia de la edad, el sexo, ubicación geográfica en el uso o no de internet. 
+Entonces, el hogar i hará uso de internet si y solo si:
+U_i1 (p_j, y_i,s_i, w_i )>U_i0 (p_j, y_i,s_i, w_i)
+La probabilidad de que el individuo i haga uso del internet es:
+P_i1=Prob?[U?_i1 (p_j, y_i,s_i, w_i )>U_i0 (p_j, y_i,s_i, w_i)]
+3.2. BRECHAS: ACCESO, USO E INTENSIDAD DE USO[22]
+
+
+       La brecha digital, que abarca diversas dimensiones, ha sido objeto de estudio en la literatura especializada. Estas dimensiones, a saber, brecha de acceso, brecha de uso y brecha de apropiación, revelan desigualdades profundas en el ámbito tecnológico. La brecha de acceso refiere a la disparidad entre aquellos que pueden acceder a dispositivos digitales y aquellos que no pueden hacerlo, considerando la disponibilidad de una infraestructura adecuada. Por otro lado, la brecha de uso se relaciona con la decisión de una persona de utilizar o no las Tecnologías de la Información y Comunicación (TIC), influenciada por diversos factores, como el nivel de motivación o la falta de interés. Finalmente, la brecha de apropiación señala la diferencia entre quienes hacen un uso productivo y enriquecedor de las TIC y aquellos que solo realizan un uso básico o superficial de estas tecnologías. La comprensión de estas dimensiones es esencial para abordar los desafíos que plantea la brecha digital y para diseñar estrategias efectivas de inclusión tecnológica.
+
+
+Tabla 1: Dimensiones de la brecha digital
+
+Brecha de accesoBrecha de usoBrecha de apropiaciónReferida a la desigualdad entre los que pueden acceder a dispositivos digitales y aquellos que no, considerando una infraestructura adecuada.Referida a si la persona hace uso o no de las TIC, por diversos motivos como la motivación y/o falta de interés.Referida a la diferencia entre quienes hacen uso productivo de las TIC de quienes hacen uso básico de estos.
+Fuente: Elaboración Propia.
+
+
+
+
+
+
+
+
+4. HECHOS ESTILIZADOS[23]
+       En la presente sección se detallará, los estadísticos descriptivos, para ello se utilizará los datos extraídos de los módulos uno (Características de la Vivienda y del Hogar), dos (Características de los Miembros del Hogar) y tres (Educación) de la Encuesta Nacional de Hogares ENAHO (2020). Luego, se examina las políticas de los países de la región de América Latina y El Caribe. Finalmente, se analiza la situación actual del Perú.
+4.1.  DATOS[24]
+       La muestra está compuesta por 13,237 estudiantes de diferentes niveles educativos. En la Tabla 5, se evidencia los principales estadísticos descriptivos de las variables.
+
+Tabla 5: Variables y estadísticos
+
+VariableObsMediaStd. Dev.MinMaxSociodemográficas     Edad13,23710.452144.221995318Sexo (mujer=2, hombre=1)13,2371.4883280.499882612Idioma (castellano=1, otro=0)13,2370.86492410.341817601Educación     Grado13,2372.1946060.708957913Centro de estudios (estatal=1, otro=2)13,2321.1262850.332182612Geográficas     Ámbito (urbano=1, rural=0)13,2370.55133340.497376701Costa13,3410.34555130.475565501Sierra13,3410.36511510.481480501Selva13,3410.28933360.453470101Uso de TIC     Conexión a Internet13,2660.25192220.434133201Uso Internet11,2131.5466870.497837812Uso computador5,0830.51918160.499681101Uso celular sin plan de datos5,0830.39799330.489532201Uso celular con plan de datos5,0830.15856780.365308501Fuente: ENAHO2019. Elaboración: propia. 
+
+
+       De acuerdo con la Tabla 5, las edades de los estudiantes están comprendidas entre 3 y 18 años; la edad promedio de los estudiantes es de 10 años. El 74,4% de la muestra es mujer y el 86% tiene como idioma principal el castellano. Asimismo, el 55% vive en zonas urbanas. El 36% de los estudiantes pertenece a la Sierra, el 34% proviene de la Costa y el 28 proviene de la Selva. En cuanto al centro de estudios, el 56% lleva clases en un centro estatal. Por último, solo el 25% de 13,226 estudiantes tienen acceso a Internet. El 51% usa un computador (N=5,083) y el 39% usa celular con un plan de datos y un 15% hace uso del celular sin un plan de datos.
+4.2.	SITUACIÓN EN LA REGIÓN[25]
+4.2.1.	POLÍTICAS TIC EN LA EDUCACIÓN
+       La existencia de estas políticas en el sector educación son de gran importancia para que las TIC den respuesta a los desafíos que se presenten y posibilita un desarrollo de condiciones mínimas.  Estas condiciones mínimas son puestas en eLAC6 cuyo plan de acción a largo plazo es que las TIC sean instrumento para el desarrollo económico y la inclusión social para los países de América Latina y el Caribe. Hasta la fecha se realizado cuatro versiones de ese plan: eLAC2007, eLAC2010, eLAC2015 y elac2018. En el 2010, nueve países de la región publicaron oficialmente sus políticas de TIC en la educación7 y hay una institución a cargo de la realización de las políticas. 
+       Ahora bien, las iniciativas de los países se clasifican en cuatro áreas: infraestructura, capacitación, recursos educativos digitales, currículum y evaluación8. El Gráfico 1 muestra el porcentaje de países divididos según tipos de acciones.
+       En cuanto a infraestructura, la mayoría de los países realiza instalaciones de computadoras en las escuelas, promoción de apoyo técnico y conexión a internet. Asimismo, la entrega de computadoras a profesores es considera solo por el 42% de los países mientras que la entrega de computadoras a alumnos solo es realiza por un tercio de los países. 
+       Respecto a la capacitación, se encuentra que la capacitación de profesores tanto en el uso como en el uso pedagógico se acciones prioritarias de la mayoría de los países. Además, el 58% de los países realizan la acción de desarrollo de comunidades virtuales de desarrollo profesionales de profesores. Mientras que la mitad de los países ejecuta acciones de interacción de TIC en la formación inicial de profesores y capacitación de profesores en el uso de TIC. Por último, capacitar a los alumnos en el uso de las TIC es una acción considerada solo por un tercio de los países. 
+       En relación a recursos, la entrega de recursos y materiales a través del portal educativo es llevado a cabo por la mayoría de los países; mientras que la mitad de los países desarrolla contenidos digitales y hace entregas directas a las escuelas de estos contenidos digitales. 
+       Finalmente, respecto a currículum y evaluación, ni la mitad de los países realizan iniciativas de desarrollo de proyectos escolares colaborativos, entrega de modelos de uso curricular de TIC o evaluación de resultados o impacto.
+ 
+Gráfico 1: Porcentaje de países en los que se implementa según los tipos de acción
+
+
+Fuente: Hinostroza en Sunkel & Trucco (2010).
+
+4.2.1.	 ANTECEDENTES DE LA POLITICA TICS EN EL PERÚ
+
+	En el Perú, en el gobierno de Alberto Fujimori se inicio una serie de reformas en las políticas TIC en el Perú, seguida de las políticas de los gobiernos de Toledo y el segundo gobierno de García. Estas iniciativas prosperaron hasta el 2012. Sin embargo, esta evolución se vio obstaculizada por la falta de coherencia en las políticas educativas a lo largo del tiempo, lo que resultó en una falta de continuidad entre las políticas iniciadas en 1996 y las adoptadas por el siguiente gobierno. 
+
+       En 1996, el Ministerio de Educación inició dos proyectos de tecnología educativa en escuelas públicas. El programa EDURED de la Red de Educación Unidad 13, que tiene alrededor de 200 escuelas de la ciudad conectadas en redes dial-up con altos costos de acceso. El proyecto INFOESCUELA, un proyecto de robot escolar, es parte del Programa de Mejoramiento de la Calidad de la Educación Primaria (MECEP). Este último cubre 400 escuelas públicas en 17 ciudades del país, y algunas evaluaciones han encontrado que el programa ha tenido un impacto significativo en el aprendizaje9. 
+       A finales del gobierno de Fujimori, se crea el Programa de Educación a Distancia (EDIST), que tuvo como objetivo la mejora de la cobertura de la de educación básica en zonas rurales. Luego este programa se instauro el proyecto Huascarán que abarco el EDIST, en el gobierno de Alejandro Toledo. Sin embargo, se identificaron los siguientes problemas: poca claridad en los objetivos educativos e inadecuada planificación, evaluación e implementación de los programas.
+
+
+4.2.2.	 AVANCES Y LIMITACIONES DE LA DIGITALIZACIÓN EN EDUCACIÓN EN LA PANDEMIA
+       Las tecnologías digitales han sido fundamentales para la continuidad de actividades en medio de la pandemia por COVID-19. En este sentido, los países de la región idearon métodos para realizar las actividades escolares a distancia. Sin embargo, esta solución solo es pensada para quienes tienen acceso a dispositivos y cuentan con conexión. 
+	La división de Educación realizó el Proyecto Sistemas de Información y Gestión Educativa (SIGED) en la cual examina la realización de procesos cotidianos de gestión y conocer el nivel de automatización y aprovechamiento digital. Existen cinco condiciones digitales: conectividad en las escuelas, plataformas digitales, tutoría virtual, paquetes de recursos digitales y repositorio central de contenido digital10. Rieble-Aubourg & Viteri (2020) encuentran que solo Uruguay cumple con las cinco condiciones digitales de SIGED; Chile, Colombia y Argentina cumplen con dos de estas (paquetes de recursos digitales y repositorio de contenido digital); mientras que Perú y México solo cumplen con la condición de repositorio de contenido digital.
+       Según la CEPAL (2020), en la región, el 46% de los niños y niñas entre las edades de 5 y 12 años no tiene conexión a Internet. En otras palabras, 32 millones de niños y niñas son excluidos de las clases online a distancia.  Asimismo, Paraguay, El Salvador, Bolivia y Perú son los países en donde el 90% de niños y niñas de los hogares más pobres no tienen conectividad a internet. Mientras que Chile, Argentina, Costa Rica y Brasil presentan mejores indicadores de conectividad en niños y niñas. En los estudiantes de áreas rurales, según los datos PISA 2018, en Chile (86%), Uruguay (82%) y Brasil (73%) presentan mejores indicadores en cuanto al acceso a internet. Y los casos menos favorables son Perú (36%) y Colombia (35%).  
+       En cuanto a acceso de dispositivos digitales en los hogares, la CEPAL (2020, a) encuentra que existe desigualdades entre los niveles socioeconómicos. Por un lado, alrededor del 80% los estudiantes de niveles socioeconómicos más altos poseen computadoras. Por otro lado, solo entre 10% y 20% de los estudiantes de los niveles socioeconómicos más bajos tienen estos dispositivos. En cuanto al acceso del computador del hogar para realizas las tareas de la escuela, se encuentra que en Chile (61%) y Uruguay (55%) el acceso en los grupos más vulnerables11 es menos limitado en comparación con en el acceso en los grupos vulnerables de México (13%) y Perú (7%)12. 
+       Según los datos de PISA 2018, los escolares de 15 años realizaban una serie de actividades con las TIC tales como uso de aplicaciones de aprendizaje o sitios web, realizar deberes escolares en una computadora, descargar o subir material en el sitio web de la institución, usar las redes sociales para comunicarse, etc. En este análisis de las actividades se encuentran que, en todas estas a mayor nivel socioeconómico, mayor proporción de estudiantes que realizan las actividades con las TIC (CEPAL, 2020a); dicho de otra manera, los escolaress de 15 años de mayor nivel socioeconómico ya tienen experiencia previa antes del confinamiento de la pandemia y para estos la adaptación al nuevo sistema de educación será menos costosa. Según Trucco y Palma (2020) en la adolescencia empieza la aproximación a Internet en actividades relacionadas a entretenimiento; de modo que la continuación de la enseñanza virtual a través de internet es más complicada para los niños y niñas de primaria.
+4.3	SITUACIÓN PERUANA
+       En el Gráfico 2, se puede apreciar que ha habido un aumento de presupuesto asignado a educación desde el 2010. Sin embargo, el presupuesto asignado a educación como porcentaje del PBI en el Perú se encuentra por debajo de los países latinoamericanos (Ñopo,2018). Asimismo, se encuentra que el gasto en educación en el año 2017 y 2018 fue de 3.94% y 3.72% del PBI respectivamente. Es decir, hay una reducción de gasto en educación. 
+
+       
+       
+Gráfico 2: Presupuesto Institucional Modificado (PIM) asignado a educación como porcentaje del PBI
+
+
+Fuente: Datosmacro.com. Elaboración propia.
+FALTA ACTUALIZAR ESTE GRAF (REV 15/09)
+
+      Por otro lado, el Ministerio de Desarrollo e Inclusión Social (MIDIS) mediante el programa Qali Warma proporcionan alimentos saludables para 4 millones de educación básica regular13. De esta forma, las instituciones educativas estatales no solo son espacio de aprendizaje, sino que velan por el bienestar y desarrollo de los estudiantes. 
+       En cuanto a datos del 2019, en la Tabla 6 se muestran los datos relevantes con respecto a la composición de estudiantes según nivel educativo. [26]El 17.09% de los estudiantes se encuentran en educación inicial; el 47.47% se encuentra en primaria y el 36,44% restante está en secundaria. Asimismo, el 49.1% de la muestra es mujer y el resto es hombre. En cuanto a la distribución según tipo de gestión de la escuela es la siguiente: 87.41% de los estudiantes se estudian en instituciones educativas estatales y 12.59% en instituciones educativas privadas (Ver Tabla 7).
+       
+Tabla 6: Nivel de educación
+
+Nivel EducativoFreq.PorcentajeEducación inicial2,27917.09Primaria6,19846.47Secundaria4,86036.44Total13,337100Fuente: ENAHO 2019. Elaboración propia.
+
+
+Tabla 7: Gestión de la escuela
+
+Gestión de la escuelaFreq.PorcentajeEstatal11,65387.41No estatal1,67812.59Total13,331100Fuente: ENAHO 2019. Elaboración propia.
+
+
+       En cuanto al área geográfica, se encuentra que el 44.51% de los estudiantes son del área rural y el 55.49% pertenecen al área urbana. Asimismo, en el área rural, el 98.40% de estudiantes se encuentra estudiando en escuelas públicas y el 1.60% se encuentra estudiando en escuelas privadas; mientras que, en el área urbana, el 78.6% de los estudiantes asiste a escuelas estatales y el 21.4% lo hace a escuelas privadas (Ver Tabla 8). Entonces, en el área rural, el principal soporte viene del sector público en su mayoría.}
+
+Tabla 8: Ámbito geográfico - gestión de la escuela
+
+ Gestión de la Escuela Ámbito geográficoEstatal    No estatalTotalRural43.80.7144.51Urbano43.6111.8855.49Total87.4112.59100Fuente: ENAHO 2019. Elaboración propia.
+
+
+       En cuanto al acceso de Internet se encuentra que, en el área rural, el 23.16% de los estudiantes tiene acceso al Internet. Mientras que, en el área urbana, el 76.84% de los estudiantes accede al Internet.  Asimismo, se encuentra que solo el 0.03% de los estudiantes del área rural acceden a Internet desde sus casas; mientras que, en el área urbana, el 32,22% de los estudiantes acceden a internet en sus hogares. En relación a uso de Internet, el 23% de los estudiantes de área rural hace uso de este servicio y en el caso del área urbana, el 63% utiliza este servicio (Ver Tabla 9).
+
+Tabla 9:  Ámbito geográfico - Acceso de Internet y Uso de Internet
+ Acceso a Internet Uso de Internet Ámbito geográficoOtroHogarTotalSiNoTotalRural22.40.7623.1610.4834.4244.91Urbano52.0724.7776.8434.7720.3355.09Total74.4725.5310045.2554.75100Fuente: ENAHO 2019. Elaboración propia.
+
+
+	En el Perú, a raíz del distanciamiento social por el Covid-19 la educación se impartió a distancia, por medio de plataformas o por el programa Aprendo en Casa para escuelas públicas de educación básica regular. Según los datos de la ENAHO del segundo trimestre, el 55,3% de los estudiantes entre 3 a 16 años recibieron las clases por televisión, el 19,2% lo hace por radio y el 31,5% lo hace mediante la plataforma virtual. En las zonas urbanas, el uso del medio televisivo para acceder al contenido de las clases asciende a 60,7%. La radio es utilizada por el 9,9%; la plataforma virtual es usado por el 38,3% y el 16,4% lo hace mediante el WhatsApp. Mientras que, en el área rural, el 42% de los estudiantes acceden a sus clases por radio; el 40,3% hace uso de la televisión y el 30% lo hace mediante WhatsApp14.
+       En el 2019, los individuos entre las edades de 6 a 17 años, el 30,5% de los escolares accedía a internet en sus hogares; el 11,2% lo hacía en su establecimiento educativo y el 25,8% lo hacía mediante una cabina pública. Asimismo, el 75,8% de los estudiantes de 12 a 17 años tienen acceso del internet; por otro lado, el 53,8% de los estudiantes de 6 a 11 años de edad tienen acceso a internet (INEI, 20202b[27]).
+
+
+
+5. HIPÓTESIS[28]
+      El interés de la investigación es conocer las brechas digitales que los estudiantes atraviesan durante la pandemia desde dos dimensiones: (1) el uso a Internet; y (2) el uso específico que se da al Internet. Entonces, se plantean cuatro hipótesis de trabajo que han guiado la investigación:
+      H1. Las estudiantes mujeres tienen menor acceso a las TIC.
+      H2. La posesión de recursos tecnológicos e internet por si sola, no permite mejoras en el aprendizaje de [29]los estudiantes
+      H3. Los estudiantes con un nivel socioeconómico alto tendrán mejores niveles de acceso y uso a las TIC.
+      H4. Los estudiantes con pocos miembros en el hogar, tienen mayor acceso y uso a las TIC.
+      H5. Los estudiantes de secundaria tienen mejores habilidades digitales que los estudiantes de primaria e inicial.
+      
+
+
+6. LINEAMIENTO METODOLÓGICOS
+     En esta sección se presentan los datos. Luego se presenta el modelo empírico a ser usado para estimar los determinantes de acceso, uso y apropiación de las TIC por parte de los estudiantes durante el 2020. 
+6.1. MUESTRA
+	En la presente investigación, se emplea los datos extraídos de los módulos uno (Características de la Vivienda y del Hogar), dos (Características de los Miembros del Hogar) y tres (Educación) de la Encuesta Nacional de Hogares ENAHO (2020). La población a estudiar está conformada por 14125 estudiantes del Perú, entre las edades de 6 a 16 años de edad[30].
+
+
+6.2. METODOLOGÍA Y MODELO EMPÍRICO[31]
+       A fin de analizar si los estudiantes cuentan con los recursos tecnológicos suficientes para continuar sus estudios, se realizan estimaciones probit. La variable dependiente es una variable categórica que mide la conexión a Internet (DNET= 1, si accede al servicio y DNET = 0, caso contrario. Asimismo, las variables dependientes serán la edad, sexo, idioma, departamento, ámbito geográfico (revisar anexo1). Mientras que para los otros dos subobjetivos[32] se toma como variable dependiente a una variable categórica que mide el uso de Internet.[33] Las variables dependientes serán la edad, sexo, idioma, departamento, ámbito geográfico (revisar Anexo1).
+Fase Inicial
+       Para el primer objetivo inicial se plantea la siguiente metodología. Siguiendo a Tello (2018), en la cual primero muestra el acceso a la infraestructura con la cual conectarse a Internet[34] (DTIC) .
+?DTIC?_h=X_h ?_h+?_h;(h=1,2,3) 
+?DTIC?_h>? si DTIC=1,  de otra manera ?DTIC?_h=0 
+Donde:
+? h=1, si el individuo posee computador/laptop (DCPD) 
+? h=2,si el individuo posee de celular (DCEL) 
+? h=3,si el individuo posee de internet (DINT)
+DCPD=?X'?_h ??'?_h+??'?_h;h=1, DCPD=1, de otra manera DCMD=0
+?DINT?_h=?X''?_h ??''?_h+??''?_h, si DCMP=1 y DNET=1, de otra manera DINT=0
+       Tomando en cuenta, nuestros dos últimos objetivos específicos, se sigue la metodología de Lera-López et al. (2011) se realizará un análisis en dos fases. En la primera se mide los determinantes de uso de Internet por los estudiantes mediante un modelo probit; mientras que, en la segunda fase, se estudia como los determinantes afectan la frecuencia de uso, en esta parte se requiere utilizar el modelo de corrección de sesgo de Heckman (1979).
+Primera fase
+U_ij=X_ij^' ?_ij+?_ij;     j=0,1;    i=1,2,….,n      (1)
+       Se denotará Y_i=1, si el individuo usa internet; mientras que Y_i=0 es el evento contrario, es decir, el individuo i no usa internet dado que tiene computador. Reescribiendo (1) se tiene la siguiente ecuación:
+Y_ij=X_ij^' ?_ij+?_ij;        i=1,2,….,n      (2)
+       Donde X_i^'  representa el vector de variables explicatorias del individuo i, el termino ?_i son los errores estándares y ?_i es el vector de coeficientes, el cual será hallado de la siguiente manera. 
+Dado los errores estándares normales, se tiene que:
+Prob(Y_i=1)=Prob(U_i1>?Ui?_0 )=Prob(X_i1^' ?_1+?_i1>X_i0^' ?_0+?_i0 )
+=Prob(X_i^' (?_1-?_0 )+(?_i1-?_i0 )>0)
+=Prob(X_i^' ?+?_i>0)=Prob(?_i>?-X?_i^' ?)=F(X_i^' ?)
+O También, 
+Prob(Y_i=1)= 1-F(-X_i^' ?)
+Y,
+Prob(Y_i=0)= 1-F(X_i^' ?)
+       Donde F(.) es una función de distribución acumulada para los términos de error ?_i. Cada Y_ij observada es modelada usando un modelo probit y que es asociado con la función de máxima verosimilitud que puede ser expresada de la siguiente manera:
+L=?_(Y_(i=1)) F(X_i^' ?)?_(Y_(i=0)) [ 1-F(X_i^' ?)]
+Tomando logaritmos:
+logL=?_(Yi=1) log[(exp(X_i^' ?))/(1+exp(X_i^' B))]+?_(Yi=0) log[1/(1+exp(X_i^' B))]
+Resolviendo esta ecuación se obtienen ? ?.
+Segunda fase
+       Se tiene el siguiente modelo probit ordenado:
+D_i=Z_i'a+u_i
+       Se tiene que si Y_i=1 satisface el modelo; es decir, cuando el estudiante usa internet. Además, Z_i es el vector de variables explicativas para el individuo i y a está asociado a al vector de coeficientes. Se asume que u_i son el error estándar.
+       Se utiliza el modelo de Heckman (1979) para corregir el error de sesgo. Para ello, se introduce el parámetro ?_i, que representa el ratio de Mills hallado en la primera fase. 
+?_i=(F(X_i^' ?))/(?(X_i^' ?))
+       En resumen, se va a utilizar un modelo de dos etapas. En la primera etapa se utiliza un modelo probit binomial, en esta parte se identifica los factores que permiten el uso de Internet Y_i en los estudiantes. Mientras que, en la segunda etapa, el modelo busca determinar los factores que explica la frecuencia de uso de internet (D_i). 
+6.3 DEFINICIÓN DE VARIABLES
+
+
+
+
+
+
+
+
+
+
+
+7. CONCLUSIONES 
+
+
+8. BIBLIOGRAFÍA
+Álvarez–Sigüenza, J. (2019). Nativos digitales y brecha digital: Una visión comparativa en el uso de las TIC. Revista de la Asociación Española de Investigación de la Comunicación, 6(1), 203-223.
+
+Banco Mundial (1999). Entering the 21st century: world development report 1999/2000. Washington, D.C.: Oxford University Press.
+
+Barrantes, R., & Vargas, E. (2017). ¿Caminos distintos y destinos iguales?: Análisis de la convergencia en patrones de uso de Internet entre diferentes grupos etarios.
+
+Bernabeu, N. (1997). Educar en una sociedad de información. Comunicar, 4(8), 73-82.
+
+Brynin, M. (2006). The neutered computer. En R. Kraut, M. Brynin y S. Kiesler (Eds.), Computers, phones, and the Internet (pp. 84-96). Oxford University Press.
+
+Calderón, D. C. (2019a). Una aproximación a la evolución de la brecha digital entre la población joven en España (2006-2015). Revista Española de Sociología, 28(1), 27-44.
+
+Castaño, J. Duart J. & Sancho T. (2012) Una segunda brecha digital entre el alumnado universitario, Cultura y Educación, 24:3, 363-377 
+
+Castells, M. (2000). La era de la información: economía, sociedad y cultura, Vol. I La sociedad red. 2a ed., Alianza Editorial, S. A, España.
+
+Castells, M. (2001). La galaxia Internet. Plaza y Janés, España.
+
+Castell, M., Tubella, I., Sancho, T. & Roca, M. (2007). La transició a la societat xarxa. Barcelona: Ariel
+
+Chen, W., & Wellman, B. (2004). The global digital divide–within and between countries. IT & society, 1(7), 39-45.
+
+CEPAL, N. (2008). Desarrollo e igualdad: el pensamiento de la CEPAL en su séptimo decenio. Textos seleccionados del período 2008-2018.
+
+CEPAL, N. (2020). La educación en tiempos de la pandemia de COVID-19.
+
+CEPAL, N. (2020b). Universalizar el acceso a las tecnologías digitales para enfrentar los efectos del COVID-19.
+
+Clafin, B. (13 de octubre del 2000) “El ABC y D de la brecha digital”, Bruce Claflin, Diario Reforma, Sección Negocios. Recuperado el 5 de octubre del 2020 de https://reforma.vlex.com.mx/vid/bruce-abc-brecha-digital-81068877
+
+Claro, M., Espejo, A., Jara, I. y Trucco, D. (2011). Aporte del sistema educativo a la reducción de las brechas digitales. Una mirada desde las mediciones PISA. Chile: CEPAL.
+
+Crovi-Drueta, D. (2008). Dimensión social del acceso, uso y apropiación de las TIC. Contratexto, (016), 65-79.
+
+Cueto, S., León J. & Felipe C. (2020) Acceso a dispositivos y habilidades digitales de dos cohortes en el Perú. Análisis y Propuestas.
+
+Cuevas, F & Alvarez, V. (2009). Brecha digital en la educación secundaria: el caso de los estudiantes costarricenses. Universidad de Costa Rica. Costa Rica.
+
+Datosmacro.com (s.f) Perú - Gasto público Educación. Recuperado el 5 de octubre del 2020 de:
+https://datosmacro.expansion.com/estado/gasto/educacion/peru
+
+Datum Internacional (s. f). Internet en el Perú. Recuperado el 28 de agosto del 2020 de:
+http://www.datum.com.pe/new_web_files/files/pdf/Internet.pdf
+DiMaggio, Paul et al. (2004), “From unequal access to differentiated use: A literature review and agenda for research on digital inequality”, en Neckerman, Kathryn [ed.], Social inequality, Estados Unidos: Russell Sage Foundation.
+
+Duplaga, M. (2017). Digital divide among people with disabilities: Analysis of data from a nationwide study for determinants of Internet use and activities performed online. PloS one, 12(6), e0179825.
+
+Fernández Enguita, M. (30 de marzo del 20202. “Una pandemia imprevisible ha traído la brecha previsible”. Cuaderno de Campo. 
+
+Garduño, R. (2004). La sociedad de la información en México frente al uso de Internet. Revista Digital Universitaria, 5(8), 1-13.
+
+Gehring, J. (2001). Not enough girls. Education Week, 20(35), 18-19. 
+
+Gestión (22 de setiembre del 2020) “Unos 300,000 escolares peruanos desertan en medio de la pandemia”. Recuperado el 18 de octubre del 2020 de https://gestion.pe/peru/unos-300000-escolares-peruanos-desertan-en-medio-de-la-pandemia-noticia/
+
+Grazzi M., S. Vergara (2009). ICT Access in Latin America: Evidence from Household Level. Project Observatory for the Information Society in Latin American and the Caribbean (OSILAC), Third Phase. Chile. Recuperado el 4 de enero del 2021 de:
+https://mpra.ub.uni-muenchen.de/33266/
+
+Grisales, N. (2011). La brecha cognitiva: una realidad educativa que va más allá de la brecha digital entre las instituciones urbanas y rurales de manizales. Revista Latinoamericana de Estudios Educativos (Colombia), 7(2),37-56. Recuperado el 25 de noviembre del 2020 de: https://www.redalyc.org/articulo.oa?id=1341/134125454004
+
+Grubesic, T. H. (2008). The spatial distribution of broadband providers in the United States: 1999–2004. Telecommunications Policy, 32(3-4), 212-233. Recuperado el 4 de enero del 2021: https://www.sciencedirect.com/science/article/pii/S0308596108000086
+
+Haugland, S. W. (2000). Early childhood classrooms in the 21st century: Using computers to maximize learning. Young Children, 55(1), 12-18. 
+
+Heckman, J. (1979). Sample selection bias as a specification error. Econometrica 47: 153–61.
+
+Hohlfeld, T., Ritzhaupt, A., and Barron, A. (2008). Examining the digital divide in K-12 public schools: Four-year trends for sup- porting ICT literacy in Florida. Computers and Education. 51(4):  1648-1663.
+
+Instituto Nacional de Estadística e Informática. Matrícula escolar en el sistema educativo, según nivel, modalidad y sector, 2008 – 2018, Lima, Perú.
+
+James, J. (2001). Bridging the digital divide with low-cost information technologies. Journal of Information Science, 27(4), 211-217.
+
+Jiménez, R., Vega, L. y Vico, A (2016). Habilidades en internet de mujeres estudiantes y su relación con la inclusión digital: Nuevas brechas digitales. Education in the Knowledge Society, 17(3),29-48. Recuperado el 30 de noviembre del 2020 de: https://doi.org/10.14201/eks20161732948
+
+Kelley-Salinas, G. (2000). Different educational inequalities: ICT an option to close the gaps. Learning to bridge the digital divide, 21-36.
+
+Kiiski, S., & Pohjola, M. (2002). Cross-country diffusion of the Internet. Information Economics and Policy, 14(2), 297-310. Recuperado el 4 de enero del 2021 de:
+https://www.sciencedirect.com/science/article/abs/pii/S0167624501000713
+
+Kuttan, A. P., & Peters, L. (2003). From digital divide to digital opportunity. Scarecrow Press, Inc.
+
+Lera-López, F., Billon, M., & Gil, M. (2011). Determinants of Internet use in Spain. Economics of Innovation and New Technology, 20(2), 127-152.
+
+Lera-López, F., Hernández Nanclares, N., & Blanco Vaca, C. (2003). La “brecha digital": un reto para el desarrollo de la sociedad del conocimiento. Revista de Economía Mundial, 2003, (8). Págs. 119-142.
+
+Losh, S. C. (2003). Gender and educational digital chasms in computer and internet access and use over time: 1983–2000. IT & Society, 1(4), 73-86. Recuperado el 3 de enero del 2021 de: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.385.9971&rep=rep1&type=pdf
+
+Madden, G., & M. Simpson. 1997. Residential broadband subscription demand: An econometric analysis of Australian choice experiment data. Applied Economics 29: 1073–8.
+
+Márquez, A. M., Acevedo J. A. A., & Castro, D. C. (2016). Brecha digital y desigualdad social en México. Economía Coyuntural, Revista de temas de perspectivas y coyuntura, 1(2), 89-136.
+
+McKeown, L., Noce, A., & Czerny, P. (2007). Factors associated with Internet use: Does rurality matter? Statistics Canada, Agriculture Division.
+
+Mendoza Z, D. M. (2017). Análisis del acceso a Internet de los estudiantes de Bachillerato en Ecuador.
+
+MIDIS (17 de setiembre del 2019) Midis Qali Warma y Minedu garantizan una alimentación saludable todos los días del año escolar. Recuperado el 8 de diciembre del 2020 de:
+https://www.qaliwarma.gob.pe/noticias/midis-qali-warma-minedu-garantizan-una-alimentacion-saludable-todos-los-dias-del-ano-escolar/
+
+Ministerio de Educación (s. f.) APUESTAS DEL SECTOR EDUCATIVO 2020 Recuperado el 15 de junio del 2021 de: http://escale.minedu.gob.pe/c/document_library/get_file?uuid=248fc583-1778-4c93-b48c-48684c2733d9&groupId=10156
+
+Mills, B.F., & B.E. Whitacre. (2003). Understanding the non?metropolitan?metropolitan digital divide. Growth and Change 34: 219–43.
+Monge, R & Hewitt, J (2004), Tecnologías de la información y las comunicaciones (TICs) y el futuro desarrollo de Costa Rica: el desafío de la exclusión, Costa Rica, Academia Centroamericana. 
+
+Murthy, V. N., Nath, R., & Soleimani, M. (2015). Long term factors of internet diffusion in Sub-Saharan Africa: A panel co-integration analysis. Journal of International Technology and Information Management, 24(4), 5.
+
+Norris, P. (2001). Digital divide: Civic engagement, information poverty, and the Internet worldwide. Cambridge university press.
+
+Ñopo, H. (2018). Análisis de la inversión educativa en el Perú desde una mirada comparada.
+
+OECD (2007), “Broadband and ICT Access and Use by Households and Individuals”, OECD Digital Economy Papers, No. 135, OECD Publishing, Paris. http://dx.doi.org/10.1787/230666254714
+
+Peres, W. y Hilbert, M. (2009). La Sociedad de la Información en América Latina y el Caribe. Desarrollo de las tecnologías y tecnologías para el desarrollo. CEPAL, Chile.
+
+Prensky, M. (2011). Enseñar a nativos digitales. Madrid: Ediciones SM.
+
+Quiroz, M. (2014). Las brechas digitales en las aulas peruanas. miradas, 1(12).
+
+Rhee, K.Y. & Kim, W. B. (2004). The adoption and use of the Internet in South Korea. Journal of Computer-Mediated Communication, 9(4), 169-186.
+
+Riddlesden, D., & Singleton, A. D. (2014). Broadband speed equity: A new digital divide? Applied Geography, 52(C), 25–33.
+
+Rieble-Aubourg, S., & Viteri, A. (2020). COVID-19: ¿Estamos preparados para el aprendizaje en línea? Nota CimA, (20).
+
+Rodríguez Gallardo, J. A. (2006). La brecha digital y sus determinantes[35][36]. UNAM.
+
+Rodríguez G., C., & Sandoval M., D. (2017). Estratificación digital: acceso y usos de las TIC en la población escolar chilena. Revista electrónica de investigación educativa, 19(1), 20-34.
+
+Sádaba, C. (2010). El perfil del usuario de Internet en España. Psychosocial Intervention, 19(1), 41-55.
+
+Schmelkes. S. (31 de marzo del 2020) “Clases digitales marcarán una brecha de aprendizaje”. La Jornada. Recuperado el 20 de noviembre del 2020 de https://www.jornada.com.mx/ultimas/sociedad/2020/03/31/clases-digitales-marcaran-una-brecha-de-aprendizaje-schmelkes-5346.html
+
+Schneir, J. R., & Xiong, Y. (2016). A cost study of fixed broadband access networks for rural areas. Telecommunications Policy, 40(8), 755-773.
+
+Selwyn, N. (2004). Reconsidering political and popular understandings of the digital divide. New Media & Society, 6(3), 341–362.
+
+Statista (2018) ¿Cuántos usuarios de Internet hay en América Latina? Recuperado el 20 de setiembre del 2020 de:
+https://es.statista.com/grafico/13903/cuantos-usuarios-de-internet-hay-en-america-latina/
+
+Steinberg, C. (2013). Televisión, Internet y educación básica. Revista: Programa Tics y Educación Básica, 1.
+
+Sunkel, G. (2006). Las Tecnologías de la Información y la Comunicación (TIC) en América Latina: Una exploración de Indicadores. Santiago de Chile: Serie Políticas Sociales.
+
+Sunkel, G., & Trucco, D. (2010). Nuevas tecnologías de la información y la comunicación para la educación en América Latina: riesgos y oportunidades. Cepal.
+
+Sunkel, G., Trucco, D. y Möller, S. (2011). Aprender y enseñar con las tecnologías de la información y las comunicaciones en América Latina: potenciales beneficios. Chile: CEPAL.
+
+Tello, E. (2007). Las tecnologías de la información y comunicaciones (TIC) y la brecha digital: su impacto en la sociedad de México. International Journal of Educational Technology in Higher Education (ETHE).
+
+Tello, M. (2018). Brecha digital en el Perú: Diagnóstico, Acceso, Uso e Impactos. Lima: INEI.
+
+Trucco, D. y A. Palma (2020), “Infancia y adolescencia en la era digital: un informe comparativo de los estudios de Kids Online del Brasil, Chile, Costa Rica y el Uruguay”, Documentos de Proyectos (LC/TS.2020/18), Santiago, Comisión Económica para América Latina y el Caribe (CEPAL).
+
+UNESCO (2005) Informe mundial 2005. Hacia las Sociedades del Conocimiento, París, UNESCO.
+
+UNESCO (2014). Indicadores UNESCO de cultura para el desarrollo: manual metodológico. Paris: UNESCO.
+
+Unión Internacional de Telecomunicaciones (UIT) (2009). Measuring the Information Society. The ICT Development Index. UIT, Suiza.
+
+Van Deursen, Alexander & van Dijk, Jan (2013), “The digital divide shifts to differences in usage”, en New media y society, vol. 16, núm. 3, Estados Unidos: Sage.
+
+Van Dijk, J. (2017). Digital divide: impact of access. En P. Rössler, C.A. Hoffner y L. van Zoonen (eds.), De International Encyclopedia of Media Effects (pp. 1-11), Chichester, UK: John Wiley
+
+Vicente, M.R., and A.J. López. 2008. Some empirical evidence on Internet diffusion in the New Member States and Candidate Countries of the European Union. Applied Economics Letters 15:
+1015–18.
+
+?Warschauer, M. (2004). Technology and social inclusion: Rethinking the digital divide. MIT press.
+
+World Statistics (s. f.). http://world-statistics.org/index.php
+
+World Resources Institute. Creating digital dividends. 2000. Recuperado el 28 de noviembre del 2020 de:  http://www.digitaldividend.org/.
+
+Zamora S, G., & Rios E, G. L. (2019) ¿Conectar para incluir?: brecha digital en las personas con discapacidad. Análisis de su uso y apropiación de Internet desde un enfoque de capacidades.
+
+Zhao, Ling et al. (2010), “Internet inequality: The relationship between high school students’ Internet use in different locations and their Internet self-efficacy”, en Computers y Education, vol. 55, Reino Unido: Elsevier. 
+
+9. ANEXOS
+Anexo1: Variables a estimar
+Anexo1: Variables a estimar
+1.-Tecnologías de la Información y ComunicaciónVariableDescripciónDNETVariable binaria (1 si el estudiante dispone de Internet)DCELVariable binaria (1 si el estudiante dispone de celular)DCMDVariable binaria (1 si el estudiante dispone de computadora/laptop)2.-Nivel socioeconómicos y educativosEST_AVariable dummy (1 si el estudiante pertenece en el estrato sociodemográfico A; 0 caso contrario).EST_BVariable dummy (1 si el estudiante pertenece en el estrato sociodemográfico B; 0 caso contrario).EST_CVariable dummy (1 si el estudiante pertenece en el estrato sociodemográfico C; 0 caso contrario).EST_DVariable dummy (1 si el estudiante pertenece en el estrato sociodemográfico D; 0 caso contrario).EST_EVariable dummy (1 si el estudiante pertenece en el estrato sociodemográfico E; 0 caso contrario).GRADOVariable que indica los años de escolaridad del estudiante.ESCUELAVariable binaria (1 si el estudiante asiste a una escuela pública; 0 en caso asista a una escuela privada).2.- SociodemográficosEDADVariable edad en años cumplidos
+SEXOVariable que denota el sexo del estudiante (1 si es mujer, 0 si es hombre).IDIOMAVariable que denota la lengua materna del estudiante (1 si habla castellano, 0 otros).MIEMBROSVariable que muestra el número de miembros en el hogar.3.- Geográficas e infraestructuracostaVariable dummy (1 si el estudiante pertenece a la Costa; 0 en caso contrario).sierraVariable dummy (1 si el estudiante pertenece a la Sierra; 0 en caso contrario).selvaVariable dummy (1 si el estudiante pertenece a la Selva; 0 en caso contrario).D1Variable dummy (1 si el estudiante pertenece a la Amazonas; 0 en caso contrario).D2Variable dummy (1 si el estudiante pertenece a la Ancash; 0 en caso contrario).D3Variable dummy (1 si el estudiante pertenece a la Apurímac; 0 en caso contrario).D4Variable dummy (1 si el estudiante pertenece a la Arequipa; 0 en caso contrario).D5Variable dummy (1 si el estudiante pertenece a la Ayacucho; 0 en caso contrario).D6Variable dummy (1 si el estudiante pertenece a la Cajamarca; 0 en caso contrario).D7Variable dummy (1 si el estudiante pertenece a la Callao; 0 en caso contrario).D8Variable dummy (1 si el estudiante pertenece a la Cusco; 0 en caso contrario).D9Variable dummy (1 si el estudiante pertenece a la Huancavelica; 0 en caso contrario).D10Variable dummy (1 si el estudiante pertenece a la Huánuco; 0 en caso contrario).D11Variable dummy (1 si el estudiante pertenece a la Ica; 0 en caso contrario).D12Variable dummy (1 si el estudiante pertenece a la Junín; 0 en caso contrario).D13Variable dummy (1 si el estudiante pertenece a la La Libertad; 0 en caso contrario).D14Variable dummy (1 si el estudiante pertenece a la Lambayeque; 0 en caso contrario). D15Variable dummy (1 si el estudiante pertenece a la Lima; 0 en caso contrario).D16Variable dummy (1 si el estudiante pertenece a la Loreto; 0 en caso contrario).D17Variable dummy (1 si el estudiante pertenece a la Madre de Dios; 0 en caso contrario).D18Variable dummy (1 si el estudiante pertenece a la Moquegua; 0 en caso contrario).D19Variable dummy (1 si el estudiante pertenece a la Pasco; 0 en caso contrario).D20Variable dummy (1 si el estudiante pertenece a la Piura; 0 en caso contrario).D21Variable dummy (1 si el estudiante pertenece a la Puno; 0 en caso contrario).D22Variable dummy (1 si el estudiante pertenece a la San Martín; 0 en caso contrario).D23Variable dummy (1 si el estudiante pertenece a la Tacna; 0 en caso contrario).D24Variable dummy (1 si el estudiante pertenece a la Tumbes; 0 en caso contrario). D25Variable dummy (1 si el estudiante pertenece a la Ucayali; 0 en caso contrario).FAMILIAVariable dummy (1 si la vivienda es multifamiliar; 0 en caso contrario).DLUZVariable dummy (1 si la vivienda cuenta con servicios de electricidad; 0 en caso contrario).
+
+
+1 Según los datos del INEI, aproximadamente 2 millones de estudiantes asisten a colegios privados, mientras que 6 millones asisten a colegios públicos en todo el territorio peruano.
+2 Cfr. World Statistics (s. f.). http://world-statistics.org/index.php
+3 Cfr. Datum Internacional (s. f.)
+4 Cfr. Zamora & Rios (2019)
+5 Cfr. Mendoza (2017)
+6 El Plan de Acción Regional sobre la Sociedad de la Información en América Latina y el Caribe
+7 Perú, Paraguay, Nicaragua, México, Guatemala, Bolivia, Uruguay, Colombia y Chile.
+8 Cfr. Sunkel & Trauco (2010).
+9 Informe Técnico Pedagógico sobre la Aplicación del Proyecto INFOESCUELA en los Centros Educativos Pilotos 1996 y seleccionados 1997; Estudio del Impacto Educacional de los Materiales. LEGO Dacta - INFOESCUELA - MED.
+10 Cfr. Rieble-Aubourg & Viteri (2020)
+11 Quintil I.
+12 Cfr. Rieble-Aubourg & Viteri (2020)
+13 Cfr MIDIS (2019).
+14 Estos medios no son excluyentes. Cfr INEI (2020b)
+Concordancia las/es? Plural o singular?
+TIC: tecnologías de información y la comunicación
+revisar presentación de objetivos específicos.
+
+Tal como están planteados los objetivos, parece que lo que quieres es describir la situación en cada dimensión de la brecha digital (acceso, uso y apropiación). 
+Si el objetivo general es comprender los determinantes, los objetivos específicos debieran apuntar a la misma lógica.
+entre quiénes?
+Oración incompleta. 
+No es claro qué quieres decir aquí
+Qué variables?
+mencionar las variables que estan en el anexo
+Revisar redacción
+done
+Ajustar de acuerdo a los avance de Tesis2
+Evalúa empezar esta sección con las definiciones que incluyes más abajo, en el 2do y 3er párrafo
+A medida que vas definiendo esto, ya debieras
+ ir pensando en las variables necesarias para capturar cada dimensión y guardarlo para más adelante
+[13R12]
+Considerando tus objetivos específicos, en esta sección debieras analizar no solo los determinantes de acceso, también de uso y apropiación.
+Y en el camino, pues ir tratando de distinguir de manera más fina qué dimensión de la brecha digital se afecta.
+Ok
+Para ilustrar por qué los determinantes económicos pueden ser muy o poco importantes.. debieras dar una idea de lo que significa en términos de costos acceder a las tic.  
+Además, estamos hablando del acceso de los individuos o de grupos poblacionales? Lo económico tiene que ver con el ingreso de los individuos o también con el de las zonas en que habitan.. por qué?
+Lo contenido aquí es básicamente una síntesis. 
+Tal vez podrías hacer referencia a literatura empírica, si la hay e identificar si hay un vacío o espacio para la investigación que tu tesis busca subsanar
+Listo
+No veo una revisión en línea con lo que conversamos en la última reunion
+Ya lo he mejorado
+¿?
+Debieras empezar recordando estas definiciones, pues en el modelo hablas de acceso y uso. 
+No me parece apropiado presentarlo en una tabla. 
+Dado que son conceptos que ya viste antes, podría incluirlo como parte de una introducion concpetual.. recordando que la brecha digital tiene tres dimensions…
+El análisis de los datos se realiza en la metodología, no en los hechos estilizados
+En los hechos estilizados estableces el contexto en que se desarrolla el estudio. 
+Se podría incluir también relaciones tentativas entre las variables dependientes y las explicativas.
+Esta sección no corresponde  a los hechos estilizados. Debiera estar al inicio del capítulo Aproximación Empírica o creo que le llamas aproximación metodológica
+
+En la sección de hechos estilizados te falta un hilo conductor. La ideas aparecen sin haber aparentemente criterio de  organización.
+
+Tal vez podrías empezar estableciendo el contexto.. 
+Situación del país en infraestructura para uso de medios digitales, acceso diferenciado de la población, 
+ Políticas permanente y de coyuntura que influyen en mejorar la infraestructura y el acceso.. 
+Presencia y perfil de los estudiantes… tu público objetivo..  Acceso de éstos a infraestructura digital… uso, apropiación.. 
+Situación en pandemia.
+Esto y en general la descipción del grupo objetivo debiera ser descrito antes.
+Se tiene estadísticas de la brecha digital por género.
+ Debieras tratar de incluir información sobre las variables que has identificado como posibles determinantes de la brecha digital, en especial de aquellas que incluyes en tus hipótesis
+Vincular hipótesis con objetivos específicos.
+
+Qué variables dependientes y explicativas te genera cada una de estas hipótesis?
+Si tuvieras que poner cada H en forma estructural cómo sería?
+Aquí la dependiente es mejora en el aprendizaje?
+Antes de describir la información, empieza con el planteamiento metodológico
+
+En este punto, daría más claridad el recordar tus objetivos específicos y vincular a tu metodología, que debiera ayudarte a lograrlos.
+Esto es a lo que llamaste objetvios específicos?
+Recuerda al lector cuales son.
+redacción
+Revisa redacción..
+Qué son DTIC, DCEL, etc? Defínelas.
+Completar referenci
+Listo
+---------------
+
+------------------------------------------------------------
+
+---------------
+
+------------------------------------------------------------
+
+2
+
+

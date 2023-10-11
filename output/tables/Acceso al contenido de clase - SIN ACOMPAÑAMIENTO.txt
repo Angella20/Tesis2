@@ -6,9 +6,9 @@
 \begin{tabular}{@{}crr@{}}
 \toprule
 Acceso al contenido de clase - SIN ACOMPAÑAMIENTO & Recuento & Porcentaje\\ \midrule
-0.0 & 5,917,262 & 97.4\\
-7.0 & 158,175 & 2.6\\
-Total & 6,075,437 & 100.0\\
+0.0 & 4,933,862 & 97.4\\
+1.0 & 131,633 & 2.6\\
+Total & 5,065,495 & 100.0\\
 \bottomrule
 \end{tabular}
 }

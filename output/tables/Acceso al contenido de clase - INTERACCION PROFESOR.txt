@@ -6,9 +6,9 @@
 \begin{tabular}{@{}crr@{}}
 \toprule
 Acceso al contenido de clase - INTERACCION PROFESOR & Recuento & Porcentaje\\ \midrule
-0.0 & 2,321,377 & 38.2\\
-1.0 & 3,754,060 & 61.8\\
-Total & 6,075,437 & 100.0\\
+0.0 & 1,894,223 & 37.4\\
+1.0 & 3,171,272 & 62.6\\
+Total & 5,065,495 & 100.0\\
 \bottomrule
 \end{tabular}
 }

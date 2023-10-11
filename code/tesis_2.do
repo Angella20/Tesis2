@@ -43,25 +43,25 @@ keep conglome vivienda hogar p1121 p1123 p1124 p1125 p1126 p1127 p1142 p1144
 preserve
 save "$works/modulo_hogar", replace
 restore
-browse
 
 * Módulo 2: (modulo_miembros)
 // Variables de interés: Parentesco Sexo y Edad
 use "$dta/enaho01-2020-200.dta", clear
-keep conglome vivienda hogar codperso p203b p207 p208a 
+keep conglome vivienda hogar codperso p203b p207 p208a p203a p203
 
 preserve
 save "$works/modulo_miembros", replace
 restore
-browse
-* Módulo 3: (modulo_educa)
 
+* Módulo 3: (modulo_educa)
 // Variables de interés
 use "$dta/enaho01a-2020-300.dta", clear
 keep conglome vivienda hogar ubigeo dominio estrato codperso p300a p304a ///
+p301b ///
 p307a1 p307a2 p307a3 p307a4 p307a4_5 p307a4_6 p307a4_7 ///
 p307b1 p307b2 p307b3 p307b4 p307b4_5 p307b4_6 p307b4_7 ///
 p308a p308d p314a ///
+p301a p301b p301c ///
 p314b_1 p314b_2 p314b_3 p314b_4 p314b_5 p314b_6 p314b_7 ///
 p314b1_1 p314b1_2 p314b1_8 p314b1_9 p314b1_6 p314b1_7 p314d p316_1 ///
 p316_2 p316_3 p316_4 p316_5 p316_6 p316_7 p316_8 p316_9 p316_10 p316_11 p316_12 ///
@@ -71,7 +71,6 @@ p316c10 t313 factor07
 preserve
 save "$works/modulo_educa", replace
 restore
-browse
 
 * Módulo 34: (modulo_sumaria)
 use "$dta/sumaria-2020.dta", clear
@@ -80,7 +79,6 @@ keep conglome vivienda hogar ubigeo estrsocial mieperho totmieho
 preserve
 save "$works/modulo_sumaria", replace
 restore
-browse
 
 * Combinar módulo_hogar y módulo_miembros en hogar_miembros
 // Cargar el archivo de datos del módulo_hogar
@@ -97,14 +95,11 @@ drop _merge
 
 save "$works/hogar_sumaria", replace
 
-
 use "$works/educa_miembros", clear
 merge m:1 conglome vivienda hogar ubigeo using "$works/hogar_sumaria"
 
-
 // Guardar el resultado en una nueva ubicación
 save "$works/base_final", replace
-
 
 * Trabajamos con la base final
 
@@ -115,14 +110,8 @@ use "$works/base_final", clear
 // DEPARTAMENTO ***********************************************************++
 // Crear una variable "departamento" extrayendo los primeros 2 dígitos de "ubigeo"
 gen departamento = substr(ubigeo, 1, 2)
-
 // Convertir la variable "departamento" a tipo de dato numérico y reemplazar los valores
 destring departamento, replace
-
-
-*Nacional
-tab p314a p207 [iw=factor07], nofreq col
-
 
 // Recodificar la variable "departamento" para asignar nombres a los códigos numéricos
 recode departamento (1=1 "Amazonas") (2=2 "Ancash") (3=3 "Apurímac") (4=4 "Arequipa") ///
@@ -133,39 +122,68 @@ recode departamento (1=1 "Amazonas") (2=2 "Ancash") (3=3 "Apurímac") (4=4 "Areq
 (24=24 "Tumbes") (25=25 "Ucayali"), gen(dpto)
 
 // AREA ************************************************************************
-// Recodificar la variable "estrato" para crear la variable "area"
 recode estrato(1/5=1) (6/8=0), gen(area)
-
-// Definir etiquetas para la variable "area"
 label define lab_area 1 "Urbano" 0 "Rural"
 
-// ZONA ***************************************************************************
+// REGION ***************************************************************************
 // Asignar etiquetas a la variable "area" usando la definición anterior
-recode dominio(1/3=1 "Costa") (4/6=2 "Sierra") (7/7=3 "Selva") (8/8=4 "Lima Metropolitana"), gen(zona)
-// IDIOMA******************************************************
-recode p300a (4 = 1) (else = 0)
+//recode dominio(1/3=1 "Costa") (4/6=2 "Sierra") (7/7=3 "Selva") (8/8=4 "Lima Metropolitana"), gen(region)
+recode dominio(1/3=1 "Costa") (4/6=2 "Sierra") (7/7=3 "Selva") (8=1 "Costa"), gen(region)
+///AÑOS DE ESCOLARIDAD*********************************************
+generate byte X5=p301b
+replace X5=0 if p301a==1 | p301a==2
+recode  X5 (1=1) (2=2) (3=3) (4=4)               if p301a==3
+recode  X5 (5=5) (6=6)                           if p301a==4
+recode  X5 (1=7) (2=8) (3=9) (4=10)              if p301a==5
+recode  X5 (5=11)(6=12)                          if p301a==6
+recode  X5 (1=12)(2=13)(3=14)(4=15)              if p301a==7
+recode  X5 (3=14)(4=15)(5=16)                    if p301a==8
+recode  X5 (1=12)(2=13)(3=14)(4=15)(5=16) (6=17) if p301a==9
+recode  X5 (4=15)(5=16)(6=17)(7=18)              if p301a==10
+recode  X5 (1=17)(2=18)                          if p301a==11
+g      _p301c=p301c
+recode _p301c (0=1)
+replace X5=_p301c if p301b==0 & p301a!=2
+label value X5 X5
+label variable X5 "Años de estudio del individuo" 
 
 // Ver los datos después de las transformaciones
 browse
 
+// IDIOMA******************************************************
+//recode p300a (4 = 1) (else = 0)
+gen idioma = 1 if p300a==4
+replace idioma=0 if p300a<4
+replace idioma=0 if p300a>5
+lab def idioma 1 "Castellano" 0 "Otros", modify
+lab val idioma idioma
 
-* Eliminar observaciones donde p308a (NIVEL EDUCATIVO)es mayor o igual a 4 y p208a (AÑOS)es mayor o igual a 18
+tab p314a
+// USO DE INTERNET ****************
+recode p314a (1= 1 "si") (2 = 0 "no") , gen(i_uso)
+tab i_uso
+
+* Eliminar observaciones donde p308a (NIVEL EDUCATIVO) es mayor o igual a 4 y p208a (AÑOS)es mayor o igual a 18
 drop if p308a >= 4
-drop if p208a >= 19
-
+//drop if p208a >= 18 10.10.2023
+drop if p208a >= 19 | p208a < 6
 // Realizar una copia de seguridad de los datos actuales
 preserve
 save "$works/base_1", replace
 restore
 
+// Cargar la base de datos base_final
+use "$works/base_1", clear
+
 rename p208a edad
 rename p308a nivel_educativo
 rename p308d centro_estudio
-rename p300a idioma
+//rename p300a idioma
 rename p207 sexo 
 rename p1121 electricidad
+rename p203b parentesco
 
-rename p314a i_uso
+//rename p314a   i_uso
 rename p314b_1 i_uso_hog
 rename p314b_2 i_uso_trab
 rename p314b_3 i_uso_cedu
@@ -198,65 +216,19 @@ rename p307b4_7 clases_sin_acompañamiento
 
 
 // Crear tablas de frecuencia para variables específicas
-tab mieperho [iw=factor07] // Tabla de frecuencia para miembros x hogar
-tab edad [iw=factor07] // Tabla de frecuencia para Edad
+// svy: tab mieperho, format(%9.3f) // Tabla de frecuencia para miembros x hogar
+local variables_to_tabulate mieperho edad nivel_educativo centro_estudio idioma ///
+ sexo area estrsocial electricidad p203 parentesco departamento region X5 i_uso ///
+ i_uso_hog i_uso_trab i_uso_cedu i_uso_cab i_uso_casotr i_uso_otro i_uso_movil ///
+ i_computadora i_laptop i_tablet i_otro i_cel_sdatos i_cel_cdatos clases_tv  ///
+ clases_radio clases_plataforma_virtual clases_otro clases_wsp clases_correo ///
+ clases_llamadas clases_interaccion_profesor clases_videos clases_documentos ///
+ clases_otros clases_msm_audio clases_msm_texto clases_sin_acompañamiento
 
-tab nivel_educativo [iw=factor07] // Tabla de frecuencia para Nivel educativo
-tab centro_estudio [iw=factor07] // Tabla de frecuencia para Centro de Estudios
+foreach var in `variables_to_tabulate' {
+    tab `var' [iw=factor07]
+}
 
-tab idioma [iw=factor07] // Tabla de frecuencia para Idioma
-tab sexo  [iw=factor07] // Tabla de frecuencia para Sexo
-tab area [iw=factor07] // Tabla de frecuencia para Area
-tab estrsocial [iw=factor07] // Tabla de frecuencia para Estrato Social
-tab electricidad [iw=factor07] // Tabla de frecuencia para Electricidad
-tab departamento [iw=factor07] 
-tab zona [iw=factor07] 
-
-tab i_uso [iw=factor07] //Tabla de frecuencia para Uso de Internet
-
-tab i_uso_hog [iw=factor07] //Tabla de frecuencia para Uso de Internet HOGAR
-
-tab i_uso_trab [iw=factor07] //Tabla de frecuencia para Uso de Internet TRABAJO
-
-tab i_uso_cedu [iw=factor07] //Tabla de frecuencia para Uso de Internet ESTABLECIMIENTO EDUCATIVO
-
-tab i_uso_cab [iw=factor07] //Tabla de frecuencia para Uso de Internet CABINA PUBLICA
-
-tab i_uso_casotr [iw=factor07] //Tabla de frecuencia para Uso de Internet CASA DE OTRA PERSONA
-
-tab i_uso_otro [iw=factor07] //Tabla de frecuencia para Uso de Internet OTRO
-
-tab i_uso_movil [iw=factor07] //Tabla de frecuencia para Uso de Internet ACCESO MOVIL
-
-///////////////
-
-tab i_computadora [iw=factor07] //Tabla de frecuencia para Uso de Internet A traves de una COMPUTADORA
-
-tab i_laptop [iw=factor07] //Tabla de frecuencia para Uso de Internet A traves de una LAPTOP
-
-tab i_tablet [iw=factor07] //Tabla de frecuencia para Uso de Internet A traves de una TABLET
-
-tab i_otro [iw=factor07] //Tabla de frecuencia para Uso de Internet A traves de OTRO
-
-tab i_cel_sdatos [iw=factor07] //Tabla de frecuencia para Uso de Internet A traves de CELULAR SIN PLAN DE DATOS
-
-tab i_cel_sdatos [iw=factor07] //Tabla de frecuencia para Uso de Internet A traves de CELULAR CON PLAN DE DATOS
-
-////
-tab clases_tv [iw=factor07]
-tab clases_radio [iw=factor07]
-tab clases_plataforma_virtual [iw=factor07]
-tab clases_otro [iw=factor07]
-tab clases_wsp [iw=factor07]
-tab clases_correo [iw=factor07]
-tab clases_llamadas [iw=factor07]
-tab clases_interaccion_profesor [iw=factor07]  //clases_interaccion_profesor"
-tab clases_videos [iw=factor07]  //clases_videos",
-tab clases_documentos [iw=factor07]  //clases_documentos", 
-tab clases_otros [iw=factor07]  //clases_otros", 
-tab clases_msm_audio [iw=factor07]  //clases_msm_audio",
-tab clases_msm_texto [iw=factor07]  //clases_msm_texto",
-tab clases_sin_acompañamiento [iw=factor07] //clases_sin_acompañamiento"
 
 // Tablas de frecuencia cruzada entre "area" y otras variables
 //tab area p308d [iw=factor07], nofreq cell
@@ -264,13 +236,13 @@ tab clases_sin_acompañamiento [iw=factor07] //clases_sin_acompañamiento"
 //tab area p314b_1 [iw=factor07], nofreq cell
 //
 
-gen facfw=round(factor07)
+//gen facfw=round(factor07)
 
 //Histogramas
 
-histogram mieperho [fw=facfw], percent fcolor(purple) ///
+//histogram mieperho [fw=facfw], percent fcolor(purple) ///
 
-histogram edad [fw=facfw]
+//histogram edad [fw=facfw]
 
 * Barra vertical
 //graph bar nivel_educativo [aw=factor07] ///
@@ -282,36 +254,32 @@ graph bar, over(area)
 graph bar, over(estrsocial)
 graph bar, over(departamento)
 
-// REGRESION 
-// regresion lineal
-// efectos marginales
-// rename de variables
-
 svyset conglome [pweight = factor07], strata (estrato)
 
+///////////
+//svyset conglome [pweight = factor07], strata (estrato)
 
-
-global var_edu  "ib2.nivel_educativo i.centro_estudio"
-global var_demo "i.idioma sexo edad mieperho i.electricidad"
-global var_geog  "area i.zona ib15.departamento"
-
-// cambia zona x region
+// REGRESION 
+global var_edu   "X5 centro_estudio"
+global var_demo  "sexo edad mieperho electricidad idioma"
+global var_geog  "area ib1.region ib15.departamento"
 
 // Regresión LINEAL
 eststo clear
-eststo: svy: reg i_uso_hog i_uso_hog i.estrsocial $var_edu $var_geog $var_demo
-
+eststo: svy: reg i_uso $var_demo ib6.estrsocial $var_edu $var_geog
 // Regresión PROBIT
-eststo: svy: probit i_uso_hog i.estrsocial $var_edu $var_geog $var_demo
-//margins, dydx(*)
-
+//eststo: probit i_uso_hog $var_demo i.estrsocial $var_edu $var_geog
+eststo: svy: probit i_uso $var_demo ib6.estrsocial $var_edu $var_geog
+margins, dydx(*)
+margins, dydx(*) atmeans
 // REGRESION LOGIT
-eststo: svy: logit i_uso_hog i.estrsocial $var_edu $var_geog $var_demo
-//margins, dydx(*)
+eststo: svy: logit i_uso $var_demo ib6.estrsocial $var_geog
+margins, dydx(*) atmeans
 esttab
 
+codebook i_uso
 
 
-//
-//
+
+
 

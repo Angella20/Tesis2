@@ -6,9 +6,9 @@
 \begin{tabular}{@{}crr@{}}
 \toprule
 Acceso al contenido de clase - LLAMADAS & Recuento & Porcentaje\\ \midrule
-0.0 & 4,335,639 & 71.4\\
-7.0 & 1,739,798 & 28.6\\
-Total & 6,075,437 & 100.0\\
+0.0 & 3,604,929 & 71.2\\
+1.0 & 1,460,566 & 28.8\\
+Total & 5,065,495 & 100.0\\
 \bottomrule
 \end{tabular}
 }

@@ -6,9 +6,9 @@
 \begin{tabular}{@{}crr@{}}
 \toprule
 Idioma & Recuento & Porcentaje\\ \midrule
-0 & 560,849 & 7.9\\
-1 & 6,494,136 & 92.1\\
-Total & 7,054,985 & 100.0\\
+0 & 500,823 & 8.6\\
+1 & 5,358,186 & 91.4\\
+Total & 5,859,010 & 100.0\\
 \bottomrule
 \end{tabular}
 }

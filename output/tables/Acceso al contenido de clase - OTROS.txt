@@ -6,9 +6,9 @@
 \begin{tabular}{@{}crr@{}}
 \toprule
 Acceso al contenido de clase - OTROS & Recuento & Porcentaje\\ \midrule
-0.0 & 6,046,073 & 99.5\\
-4.0 & 29,364 & 0.5\\
-Total & 6,075,437 & 100.0\\
+0.0 & 5,040,685 & 99.5\\
+1.0 & 24,810 & 0.5\\
+Total & 5,065,495 & 100.0\\
 \bottomrule
 \end{tabular}
 }

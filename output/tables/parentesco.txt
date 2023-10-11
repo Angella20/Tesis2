@@ -1,0 +1,21 @@
+\begin{table}[H]
+\centering
+\caption{parentesco}
+\label{tab:parentesco}
+\scalebox{0.65}{
+\begin{tabular}{@{}crr@{}}
+\toprule
+parentesco & Recuento & Porcentaje\\ \midrule
+2 & 714 & 0.0\\
+3 & 4,992,608 & 85.2\\
+4 & 3,187 & 0.1\\
+5 & 719,004 & 12.3\\
+7 & 98,298 & 1.7\\
+8 & 1,293 & 0.0\\
+10 & 18,319 & 0.3\\
+11 & 25,587 & 0.4\\
+Total & 5,859,010 & 100.0\\
+\bottomrule
+\end{tabular}
+}
+\end{table}

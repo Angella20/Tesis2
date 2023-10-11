@@ -6,9 +6,9 @@
 \begin{tabular}{@{}crr@{}}
 \toprule
 Acceso al contenido de clase - MENSAJES DE TEXTO & Recuento & Porcentaje\\ \midrule
-0.0 & 4,068,594 & 67.0\\
-6.0 & 2,006,843 & 33.0\\
-Total & 6,075,437 & 100.0\\
+0.0 & 3,364,398 & 66.4\\
+1.0 & 1,701,097 & 33.6\\
+Total & 5,065,495 & 100.0\\
 \bottomrule
 \end{tabular}
 }

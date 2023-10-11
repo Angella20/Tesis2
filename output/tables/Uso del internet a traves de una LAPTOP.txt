@@ -6,9 +6,9 @@
 \begin{tabular}{@{}crr@{}}
 \toprule
 Uso del internet a traves de una LAPTOP & Recuento & Porcentaje\\ \midrule
-0.0 & 3,880,969 & 90.8\\
-2.0 & 392,707 & 9.2\\
-Total & 4,273,677 & 100.0\\
+0.0 & 3,806,488 & 90.8\\
+1.0 & 385,808 & 9.2\\
+Total & 4,192,297 & 100.0\\
 \bottomrule
 \end{tabular}
 }

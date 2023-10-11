@@ -6,9 +6,9 @@
 \begin{tabular}{@{}crr@{}}
 \toprule
 Centro de Estudios & Recuento & Porcentaje\\ \midrule
-1.0 & 5,935,242 & 84.1\\
-2.0 & 1,119,743 & 15.9\\
-Total & 7,054,985 & 100.0\\
+1.0 & 4,930,020 & 84.1\\
+2.0 & 928,990 & 15.9\\
+Total & 5,859,010 & 100.0\\
 \bottomrule
 \end{tabular}
 }

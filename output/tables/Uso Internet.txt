@@ -1,14 +1,14 @@
 \begin{table}[H]
 \centering
-\caption{Uso internet}
-\label{tab:Uso internet}
+\caption{Uso Internet}
+\label{tab:Uso Internet}
 \scalebox{0.65}{
 \begin{tabular}{@{}crr@{}}
 \toprule
-Uso internet & Recuento & Porcentaje\\ \midrule
-1.0 & 4,273,676 & 71.1\\
-2.0 & 1,739,855 & 28.9\\
-Total & 6,013,532 & 100.0\\
+Uso Internet & Recuento & Porcentaje\\ \midrule
+0 & 1,666,713 & 28.5\\
+1 & 4,192,297 & 71.6\\
+Total & 5,859,010 & 100.0\\
 \bottomrule
 \end{tabular}
 }

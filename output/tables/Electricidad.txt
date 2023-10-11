@@ -6,9 +6,9 @@
 \begin{tabular}{@{}crr@{}}
 \toprule
 Electricidad & Recuento & Porcentaje\\ \midrule
-0.0 & 340,455 & 4.8\\
-1.0 & 6,714,530 & 95.2\\
-Total & 7,054,985 & 100.0\\
+0.0 & 284,632 & 4.9\\
+1.0 & 5,574,378 & 95.1\\
+Total & 5,859,010 & 100.0\\
 \bottomrule
 \end{tabular}
 }

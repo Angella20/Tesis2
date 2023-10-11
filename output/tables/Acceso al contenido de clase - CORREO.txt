@@ -6,9 +6,9 @@
 \begin{tabular}{@{}crr@{}}
 \toprule
 Acceso al contenido de clase - CORREO & Recuento & Porcentaje\\ \midrule
-0.0 & 5,877,302 & 96.7\\
-6.0 & 198,134 & 3.3\\
-Total & 6,075,437 & 100.0\\
+0.0 & 4,887,306 & 96.5\\
+1.0 & 178,188 & 3.5\\
+Total & 5,065,495 & 100.0\\
 \bottomrule
 \end{tabular}
 }

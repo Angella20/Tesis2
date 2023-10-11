@@ -6,10 +6,9 @@
 \begin{tabular}{@{}crr@{}}
 \toprule
 Nivel Educativo & Recuento & Porcentaje\\ \midrule
-1.0 & 1,179,954 & 16.7\\
-2.0 & 3,219,312 & 45.6\\
-3.0 & 2,655,718 & 37.6\\
-Total & 7,054,985 & 100.0\\
+2.0 & 3,203,291 & 54.7\\
+3.0 & 2,655,718 & 45.3\\
+Total & 5,859,010 & 100.0\\
 \bottomrule
 \end{tabular}
 }
