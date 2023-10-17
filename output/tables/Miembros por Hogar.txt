@@ -5,7 +5,7 @@
 \scalebox{0.65}{
 \begin{tabular}{@{}crr@{}}
 \toprule
-Miembros por Hogar & Recuento & Porcentaje\\ \midrule
+Valor & Recuento & Porcentaje\\ \midrule
 1 & 5,076 & 0.1\\
 2 & 216,104 & 3.7\\
 3 & 785,886 & 13.4\\

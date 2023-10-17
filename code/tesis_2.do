@@ -30,11 +30,6 @@ unicode analyze "sumaria-2020.dta"
 unicode encoding set "latin1"  
 unicode translate "sumaria-2020.dta"
 
-
-// Agregar Sumaria para traer los niveles socioeconomicos 
-// Factor de expansión 
-
-
 * Módulo 1: (modulo_hogar)
 // Variables de interés: Alumbrado - Celular e Internet
 use "$dta/enaho01-2020-100.dta", clear
@@ -57,11 +52,10 @@ restore
 // Variables de interés
 use "$dta/enaho01a-2020-300.dta", clear
 keep conglome vivienda hogar ubigeo dominio estrato codperso p300a p304a ///
-p301b ///
+p301b p301a p301b p301c ///
 p307a1 p307a2 p307a3 p307a4 p307a4_5 p307a4_6 p307a4_7 ///
 p307b1 p307b2 p307b3 p307b4 p307b4_5 p307b4_6 p307b4_7 ///
 p308a p308d p314a ///
-p301a p301b p301c ///
 p314b_1 p314b_2 p314b_3 p314b_4 p314b_5 p314b_6 p314b_7 ///
 p314b1_1 p314b1_2 p314b1_8 p314b1_9 p314b1_6 p314b1_7 p314d p316_1 ///
 p316_2 p316_3 p316_4 p316_5 p316_6 p316_7 p316_8 p316_9 p316_10 p316_11 p316_12 ///
@@ -105,7 +99,6 @@ save "$works/base_final", replace
 
 // Cargar la base de datos base_final
 use "$works/base_final", clear
-
 
 // DEPARTAMENTO ***********************************************************++
 // Crear una variable "departamento" extrayendo los primeros 2 dígitos de "ubigeo"
@@ -158,15 +151,16 @@ replace idioma=0 if p300a>5
 lab def idioma 1 "Castellano" 0 "Otros", modify
 lab val idioma idioma
 
-tab p314a
 // USO DE INTERNET ****************
 recode p314a (1= 1 "si") (2 = 0 "no") , gen(i_uso)
-tab i_uso
 
 * Eliminar observaciones donde p308a (NIVEL EDUCATIVO) es mayor o igual a 4 y p208a (AÑOS)es mayor o igual a 18
-drop if p308a >= 4
+//drop if p308a >= 4
 //drop if p208a >= 18 10.10.2023
 drop if p208a >= 19 | p208a < 6
+
+keep if p308a == 2 | p308a == 3
+
 // Realizar una copia de seguridad de los datos actuales
 preserve
 save "$works/base_1", replace
@@ -174,9 +168,10 @@ restore
 
 // Cargar la base de datos base_final
 use "$works/base_1", clear
+br 
 
-rename p208a edad
 rename p308a nivel_educativo
+rename p208a edad
 rename p308d centro_estudio
 //rename p300a idioma
 rename p207 sexo 
@@ -191,6 +186,7 @@ rename p314b_4 i_uso_cab
 rename p314b_5 i_uso_casotr
 rename p314b_6 i_uso_otro
 rename p314b_7 i_uso_movil
+
 rename p314b1_1 i_computadora 
 rename p314b1_2 i_laptop
 //rename p314b1_5 i_cel_trab
@@ -198,61 +194,72 @@ rename p314b1_6 i_tablet
 rename p314b1_7 i_otro
 rename p314b1_8 i_cel_sdatos
 rename p314b1_9 i_cel_cdatos
+rename p316a1 cel_uso
+br 
+                    
+rename p316b    uso_cp_lp
 
-rename p307a1 clases_tv
-rename p307a2 clases_radio
-rename p307a3 clases_plataforma_virtual
-rename p307a4 clases_otro
-rename p307a4_5 clases_wsp
-rename p307a4_6 clases_correo
-rename p307a4_7 clases_llamadas
-rename p307b1 clases_interaccion_profesor
-rename p307b2 clases_videos
-rename p307b3 clases_documentos
-rename p307b4 clases_otros
-rename p307b4_5 clases_msm_audio
-rename p307b4_6 clases_msm_texto
-rename p307b4_7 clases_sin_acompañamiento
+rename p307a1  cl_medio_tv
+rename p307a2  cl_medio_radio
+rename p307a3  cl_medio_plataforma_virtual
+rename p307a4  cl_medio_otro 
+rename p307a4_5  cl_medio_wsp
+rename p307a4_6  cl_medio_correo
+rename p307a4_7  cl_medio_llamadas
+                    
+rename p307b1  cl_desarrollo_interaccion 
+rename p307b2  cl_desarrollo_videos
+rename p307b3  cl_desarrollo_documentos 
+rename p307b4    cl_desarrollo_otros
+rename p307b4_5  cl_desarrollo_msm_audio
+rename p307b4_6  cl_desarrollo_msm_texto
+rename p307b4_7  cl_desarrollo_sin_acompañamiento
 
+rename p316_1   i_obtener_info
+rename p316_2   i_comunicarse 
+rename p316_3   i_comprar_pdts_ss 
+rename p316_4   i_operaciones_bancarias
+rename p316_5   i_edu_formal
+rename p316_6   i_transacciones
+rename p316_7   i_act_entretenimiento
+rename p316_8   i_vender_pdts
+rename p316_12  i_descarga_antivirus
 
+rename p316c1   ai_mover_archivo
+rename p316c2   ai_copiar_pegar
+rename p316c3   ai_enviar_correos
+rename p316c4   ai_form_excel
+rename p316c5   ai_conec_dispositivos
+rename p316c6   ai_software
+rename p316c7   ai_presentaciones_electronicas 
+rename p316c8   ai_tranfer_archivos
+rename p316c9   ai_leng_programacion
+rename p316c10  ai_otros
+
+br 
 // Crear tablas de frecuencia para variables específicas
 // svy: tab mieperho, format(%9.3f) // Tabla de frecuencia para miembros x hogar
 local variables_to_tabulate mieperho edad nivel_educativo centro_estudio idioma ///
  sexo area estrsocial electricidad p203 parentesco departamento region X5 i_uso ///
- i_uso_hog i_uso_trab i_uso_cedu i_uso_cab i_uso_casotr i_uso_otro i_uso_movil ///
- i_computadora i_laptop i_tablet i_otro i_cel_sdatos i_cel_cdatos clases_tv  ///
- clases_radio clases_plataforma_virtual clases_otro clases_wsp clases_correo ///
- clases_llamadas clases_interaccion_profesor clases_videos clases_documentos ///
- clases_otros clases_msm_audio clases_msm_texto clases_sin_acompañamiento
+ i_uso_hog  i_uso_trab i_uso_cedu i_uso_cab i_uso_casotr i_uso_otro ///
+ i_uso_movil ///
+ i_computadora i_laptop i_tablet i_otro i_cel_sdatos i_cel_cdatos ///
+ cel_uso  uso_cp_lp ///
+ cl_medio_tv  cl_medio_radio cl_medio_plataforma_virtual ///
+ cl_medio_otro  cl_medio_wsp cl_medio_correo  cl_medio_llamadas ///
+ cl_desarrollo_interaccion cl_desarrollo_videos cl_desarrollo_documentos ///
+ cl_desarrollo_otros cl_desarrollo_msm_audio ///
+ cl_desarrollo_msm_texto  cl_desarrollo_sin_acompañamiento ///
+ i_obtener_info i_comunicarse i_comprar_pdts_ss i_operaciones_bancarias ///
+ i_edu_formal  i_transacciones i_act_entretenimiento i_vender_pdts ///
+ i_descarga_antivirus ai_mover_archivo ai_copiar_pegar ai_enviar_correos ///
+ ai_form_excel ai_conec_dispositivos ai_software ///
+ ai_presentaciones_electronicas ai_tranfer_archivos ai_leng_programacion ai_otros
 
 foreach var in `variables_to_tabulate' {
     tab `var' [iw=factor07]
 }
 
-
-// Tablas de frecuencia cruzada entre "area" y otras variables
-//tab area p308d [iw=factor07], nofreq cell
-//tab area p314a [iw=factor07], nofreq cell
-//tab area p314b_1 [iw=factor07], nofreq cell
-//
-
-//gen facfw=round(factor07)
-
-//Histogramas
-
-//histogram mieperho [fw=facfw], percent fcolor(purple) ///
-
-//histogram edad [fw=facfw]
-
-* Barra vertical
-//graph bar nivel_educativo [aw=factor07] ///
-graph bar, over(nivel_educativo) // agregar factor de expansion
-graph bar, over(centro_estudio)
-graph bar, over(idioma)
-graph bar, over(sexo)
-graph bar, over(area)
-graph bar, over(estrsocial)
-graph bar, over(departamento)
 
 svyset conglome [pweight = factor07], strata (estrato)
 
@@ -262,18 +269,18 @@ svyset conglome [pweight = factor07], strata (estrato)
 // REGRESION 
 global var_edu   "X5 centro_estudio"
 global var_demo  "sexo edad mieperho electricidad idioma"
-global var_geog  "area ib1.region ib15.departamento"
+global var_geog  "ib1.region ib15.departamento"
 
 // Regresión LINEAL
 eststo clear
-eststo: svy: reg i_uso $var_demo ib6.estrsocial $var_edu $var_geog
+eststo: svy: reg i_uso $var_demo ib1.estrsocial $var_edu $var_geog
 // Regresión PROBIT
 //eststo: probit i_uso_hog $var_demo i.estrsocial $var_edu $var_geog
-eststo: svy: probit i_uso $var_demo ib6.estrsocial $var_edu $var_geog
+eststo: svy: probit i_uso $var_demo ib1.estrsocial $var_edu $var_geog
 margins, dydx(*)
 margins, dydx(*) atmeans
 // REGRESION LOGIT
-eststo: svy: logit i_uso $var_demo ib6.estrsocial $var_geog
+eststo: svy: logit i_uso $var_demo ib1.estrsocial $var_geog
 margins, dydx(*) atmeans
 esttab
 

@@ -5,10 +5,10 @@
 \scalebox{0.65}{
 \begin{tabular}{@{}crr@{}}
 \toprule
-Region & Recuento & Porcentaje\\ \midrule
-1 & 3,012,239 & 51.4\\
-2 & 1,932,220 & 33.0\\
-3 & 914,551 & 15.6\\
+Valor & Recuento & Porcentaje\\ \midrule
+Costa & 3,012,239 & 51.4\\
+Selva & 914,551 & 15.6\\
+Sierra & 1,932,220 & 33.0\\
 Total & 5,859,010 & 100.0\\
 \bottomrule
 \end{tabular}

@@ -5,7 +5,7 @@
 \scalebox{0.65}{
 \begin{tabular}{@{}crr@{}}
 \toprule
-parentesco & Recuento & Porcentaje\\ \midrule
+Valor & Recuento & Porcentaje\\ \midrule
 2 & 714 & 0.0\\
 3 & 4,992,608 & 85.2\\
 4 & 3,187 & 0.1\\

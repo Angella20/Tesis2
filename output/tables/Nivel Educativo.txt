@@ -5,9 +5,9 @@
 \scalebox{0.65}{
 \begin{tabular}{@{}crr@{}}
 \toprule
-Nivel Educativo & Recuento & Porcentaje\\ \midrule
-2.0 & 3,203,291 & 54.7\\
-3.0 & 2,655,718 & 45.3\\
+Valor & Recuento & Porcentaje\\ \midrule
+Primaria & 3,203,291 & 54.7\\
+Secundaria & 2,655,718 & 45.3\\
 Total & 5,859,010 & 100.0\\
 \bottomrule
 \end{tabular}

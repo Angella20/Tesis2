@@ -1,0 +1,17 @@
+\begin{table}[H]
+\centering
+\caption{Ud., usa Internet al menos}
+\label{tab:Ud., usa Internet al menos}
+\scalebox{0.65}{
+\begin{tabular}{@{}crr@{}}
+\toprule
+Valor & Recuento & Porcentaje\\ \midrule
+1.0 & 1,645,932 & 86.8\\
+2.0 & 240,619 & 12.7\\
+3.0 & 9,755 & 0.5\\
+4.0 & 854 & 0.1\\
+Total & 1,897,160 & 100.0\\
+\bottomrule
+\end{tabular}
+}
+\end{table}

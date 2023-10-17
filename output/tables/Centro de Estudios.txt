@@ -5,9 +5,9 @@
 \scalebox{0.65}{
 \begin{tabular}{@{}crr@{}}
 \toprule
-Centro de Estudios & Recuento & Porcentaje\\ \midrule
-1.0 & 4,930,020 & 84.1\\
-2.0 & 928,990 & 15.9\\
+Valor & Recuento & Porcentaje\\ \midrule
+Nacional & 4,930,020 & 84.1\\
+Privada & 928,990 & 15.9\\
 Total & 5,859,010 & 100.0\\
 \bottomrule
 \end{tabular}

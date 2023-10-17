@@ -5,9 +5,9 @@
 \scalebox{0.65}{
 \begin{tabular}{@{}crr@{}}
 \toprule
-Sexo & Recuento & Porcentaje\\ \midrule
-0.0 & 2,976,590 & 50.8\\
-1.0 & 2,882,420 & 49.2\\
+Valor & Recuento & Porcentaje\\ \midrule
+Hombre & 2,976,590 & 50.8\\
+Mujer & 2,882,420 & 49.2\\
 Total & 5,859,010 & 100.0\\
 \bottomrule
 \end{tabular}

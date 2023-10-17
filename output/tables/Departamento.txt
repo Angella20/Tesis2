@@ -5,7 +5,7 @@
 \scalebox{0.65}{
 \begin{tabular}{@{}crr@{}}
 \toprule
-Departamento & Recuento & Porcentaje\\ \midrule
+Valor & Recuento & Porcentaje\\ \midrule
 1 & 88,288 & 1.5\\
 2 & 231,022 & 3.9\\
 3 & 84,236 & 1.4\\

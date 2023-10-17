@@ -5,13 +5,13 @@
 \scalebox{0.65}{
 \begin{tabular}{@{}crr@{}}
 \toprule
-Estrato Social & Recuento & Porcentaje\\ \midrule
-1 & 38,924 & 0.7\\
-2 & 114,387 & 2.0\\
-3 & 399,166 & 6.8\\
-4 & 1,516,322 & 25.9\\
-5 & 2,290,252 & 39.1\\
-6 & 1,499,957 & 25.6\\
+Valor & Recuento & Porcentaje\\ \midrule
+A & 38,924 & 0.7\\
+B & 114,387 & 2.0\\
+C & 399,166 & 6.8\\
+D & 1,516,322 & 25.9\\
+E & 2,290,252 & 39.1\\
+rural & 1,499,957 & 25.6\\
 Total & 5,859,010 & 100.0\\
 \bottomrule
 \end{tabular}
