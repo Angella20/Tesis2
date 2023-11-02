@@ -7,13 +7,13 @@ import numpy as np
 
 def guardar_histograma_con_pesos(df, columna,descriptivo, bins):
     # Crear el histograma con pesos
-    ax = sns.histplot(data=df, x=columna, bins=bins, kde=True, color='blue', edgecolor='black',  #bins 11.10.2023
+    plt.figure(figsize=(6,5))
+    ax = sns.histplot(data=df, x=columna, bins=bins, kde=True, color='#999999', edgecolor='black',  #bins 11.10.2023
                  weights=df['factor07'])
 
     # Etiquetas y título
-    plt.xlabel(f'{descriptivo}')
+    plt.xlabel('')
     plt.ylabel('Frecuencia')
-    plt.title(f'Histograma {columna}')
     
     # Eliminar los spines derecho y superior
     ax.spines['right'].set_visible(False)
@@ -25,9 +25,7 @@ def guardar_histograma_con_pesos(df, columna,descriptivo, bins):
     # Guardar la imagen en la ruta especificada
     ruta_guardado = '../output/images/' + nombre_archivo
     plt.savefig(ruta_guardado)
-
-    # Mostrar el histograma
-    plt.show()
+    plt.show()                   # Mostrar el histograma
     
 def guardar_graf_barras(df, columna_categorica, labels):
     # Crear una paleta de colores personalizada para las categorías
@@ -56,7 +54,7 @@ def guardar_graf_barras(df, columna_categorica, labels):
     # Etiquetas y título
     plt.xlabel('')
     plt.ylabel('')
-    plt.title(f'Porcentaje de estudiante por {columna_categorica}')
+    #plt.title(f'Porcentaje de estudiante por {columna_categorica}')   # 16.10.2023
     
     # Reducir el tamaño de fuente de la leyenda
     handles = [plt.Rectangle((0,0),1,1, color=col) for col in custom_palette[:len(labels)]]
@@ -86,8 +84,8 @@ def barras(df, variable, nuevo_valor):
     freq_1['variable'] = nuevo_valor
     return freq_1
 
-def graf_multiples(df, titulo, nom_archivo):
-    plt.figure(figsize=(30,15))
+def graf_multiples(df, nom_archivo):
+    plt.figure(figsize=(28,15))
     ax = sns.barplot(data = df, x = 'Porcentaje', y = 'variable', color = 'grey',
                     order=df.sort_values('Porcentaje',ascending = False).variable)
     # Etiquetas y título
@@ -101,9 +99,9 @@ def graf_multiples(df, titulo, nom_archivo):
 
     plt.bar_label(ax.containers[0], fmt='%.2f%%', fontsize=30)
     plt.xticks(fontsize=20)
-    plt.yticks(fontsize=20)
+    plt.yticks(fontsize=25)
 
-    plt.title(titulo, fontsize=30)
+    #plt.title(titulo, fontsize=30)
 
     # Generar el nombre del archivo de imagen basado en el nombre de la columna
     nombre_archivo = f'multiples_{nom_archivo}.png'
