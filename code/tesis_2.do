@@ -2,7 +2,7 @@
 clear all  // Limpiar la memoria de Stata
 
 // Definir rutas globales
-global main   "C:/Users/SINERGY TECH/Desktop/STATA_TESIS" // Ruta principal
+global main   "C:/Users/SINERGY TECH/Desktop/TESIS_GITHUB/Tesis2/input" // Ruta principal
 global dta    "$main/Datos"                               // Carpeta de datos
 global works  "$main/Trabajadas"                          // Carpeta de resultados
 
@@ -42,7 +42,7 @@ restore
 * Módulo 2: (modulo_miembros)
 // Variables de interés: Parentesco Sexo y Edad
 use "$dta/enaho01-2020-200.dta", clear
-keep conglome vivienda hogar codperso p203b p207 p208a p203a p203
+keep conglome vivienda hogar codperso p203b p204 p207 p208a p203a p203
 
 preserve
 save "$works/modulo_miembros", replace
@@ -52,15 +52,14 @@ restore
 // Variables de interés
 use "$dta/enaho01a-2020-300.dta", clear
 keep conglome vivienda hogar ubigeo dominio estrato codperso p300a p304a ///
-p301b p301a p301b p301c ///
+p301b p301a p301c ///
 p307a1 p307a2 p307a3 p307a4 p307a4_5 p307a4_6 p307a4_7 ///
 p307b1 p307b2 p307b3 p307b4 p307b4_5 p307b4_6 p307b4_7 ///
 p308a p308d p314a ///
 p314b_1 p314b_2 p314b_3 p314b_4 p314b_5 p314b_6 p314b_7 ///
 p314b1_1 p314b1_2 p314b1_8 p314b1_9 p314b1_6 p314b1_7 p314d p316_1 ///
 p316_2 p316_3 p316_4 p316_5 p316_6 p316_7 p316_8 p316_9 p316_10 p316_11 p316_12 ///
-p316a1 p316b p316c1 p316c2 p316c3 p316c4 p316c5 p316c6  p316c7 p316c8 p316c9 ///
-p316c10 t313 factor07
+p316a1 p316b t313 factor07
 
 preserve
 save "$works/modulo_educa", replace
@@ -159,7 +158,9 @@ recode p314a (1= 1 "si") (2 = 0 "no") , gen(i_uso)
 //drop if p208a >= 18 10.10.2023
 drop if p208a >= 19 | p208a < 6
 
-keep if p308a == 2 | p308a == 3
+keep if p308a == 2 | p308a == 3 
+keep if p204 ==1
+
 
 // Realizar una copia de seguridad de los datos actuales
 preserve
@@ -225,18 +226,9 @@ rename p316_7   i_act_entretenimiento
 rename p316_8   i_vender_pdts
 rename p316_12  i_descarga_antivirus
 
-rename p316c1   ai_mover_archivo
-rename p316c2   ai_copiar_pegar
-rename p316c3   ai_enviar_correos
-rename p316c4   ai_form_excel
-rename p316c5   ai_conec_dispositivos
-rename p316c6   ai_software
-rename p316c7   ai_presentaciones_electronicas 
-rename p316c8   ai_tranfer_archivos
-rename p316c9   ai_leng_programacion
-rename p316c10  ai_otros
-
-br 
+tab mieperho [iw=factor07]
+sum mieperho
+--
 // Crear tablas de frecuencia para variables específicas
 // svy: tab mieperho, format(%9.3f) // Tabla de frecuencia para miembros x hogar
 local variables_to_tabulate mieperho edad nivel_educativo centro_estudio idioma ///
@@ -284,7 +276,6 @@ eststo: svy: logit i_uso $var_demo ib1.estrsocial $var_geog
 margins, dydx(*) atmeans
 esttab
 
-codebook i_uso
 
 
 

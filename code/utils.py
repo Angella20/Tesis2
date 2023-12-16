@@ -164,3 +164,55 @@ def generar_tabla_recuento(dataframe, variable, descripcion_valores, guardar_com
             archivo.write("\\end{table}\n")
 
     return freq_
+
+def generar_tabla_recuento_dep(dataframe, variable, descripcion_valores, guardar_como_txt=False):
+    # Agrupa los datos por la columna 'variable' y suma 'factor07'
+    freq_ = dataframe[['factor07', variable]].groupby(variable).sum().reset_index()
+    
+    # Calcular el porcentaje y redondearlo a dos decimales directamente en esta línea
+    total_recuento = freq_['factor07'].sum()
+    freq_['Porcentaje'] = (freq_['factor07'] / total_recuento * 100).round(2)
+    
+    freq_.rename(columns={'factor07': 'Recuento', variable: descripcion_valores}, inplace=True)
+    
+    # Calcular los totales
+    total_recuento = freq_['Recuento'].astype(float).sum()
+    total_porcentaje = freq_['Porcentaje'].astype(float).sum()
+    
+    # Crear una fila adicional para los totales
+    fila_total = pd.DataFrame({descripcion_valores: 'Total', 'Recuento': total_recuento, 'Porcentaje': total_porcentaje}, index=[0])
+
+    # Concatenar la fila total al DataFrame
+    freq_ = pd.concat([freq_, fila_total], ignore_index=True)
+    
+    # Formatear las columnas "Recuento" y "Porcentaje" como cadenas
+    freq_['Recuento'] = freq_['Recuento'].apply(lambda x: '{:,.0f}'.format(x))
+    freq_['Porcentaje'] = freq_['Porcentaje'].apply(lambda x: '{:.1f}'.format(x))
+    
+    if guardar_como_txt:
+        # Guardar la tabla formateada en un archivo de texto en la ruta especificada
+        nombre_archivo_txt = os.path.join("../output/tables", f"{descripcion_valores}.txt")
+        with open(nombre_archivo_txt, 'w') as archivo:
+            # Encabezado de la tabla en formato LaTeX
+            encabezado_latex = f"\\begin{{table}}[H]\n\\centering\n\\caption{{{descripcion_valores}}}\n\\label{{tab:{descripcion_valores}}}\n"
+            archivo.write(encabezado_latex)
+            
+            # Datos de la tabla en formato LaTeX
+            archivo.write("\\scalebox{0.65}{\n")
+            archivo.write("\\begin{tabular}{@{}crr@{}}\n")  # Modifica esta línea
+            archivo.write("\\toprule\n")
+            #archivo.write("Miembros por Hogar & Recuento & Porcentaje\\\\ \\midrule\n")  # Cambia las columnas y el encabezado aquí
+            archivo.write("Valor & Recuento & Porcentaje\\\\ \\midrule\n") 
+            #archivo.write(f"{descripcion_valores} & Recuento & Porcentaje\\\\ \\midrule\n") #15.10.2023
+            
+            # Escribe los datos de la tabla
+            for _, row in freq_.iterrows():
+                #archivo.write(f"{row[descripcion_valores]} & {row['Recuento']} & {row['Porcentaje']}\\\\\n")
+                archivo.write(f"{row[descripcion_valores]} & {row['Recuento']} & {row['Porcentaje']}\\\\\n")
+            
+            archivo.write("\\bottomrule\n")
+            archivo.write("\\end{tabular}\n")
+            archivo.write("}\n")
+            archivo.write("\\end{table}\n")
+
+    return freq_
